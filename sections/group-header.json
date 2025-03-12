@@ -73,90 +73,6 @@
     "header": {
       "type": "header",
       "blocks": {
-        "image_JMej6B": {
-          "type": "image",
-          "settings": {
-            "position": "6",
-            "aspect_ratio": 0.9,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/dark",
-            "text_color": ""
-          }
-        },
-        "image_BVGCmT": {
-          "type": "image",
-          "settings": {
-            "position": "6",
-            "aspect_ratio": 0.9,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/uv-bodysuits",
-            "text_color": ""
-          }
-        },
-        "image_6Gf7CC": {
-          "type": "image",
-          "settings": {
-            "position": "6",
-            "aspect_ratio": 0.9,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/bestsellers-men",
-            "text_color": ""
-          }
-        },
-        "image_j73KPt": {
-          "type": "image",
-          "settings": {
-            "position": "6",
-            "aspect_ratio": 0.9,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://pages/collections",
-            "text_color": ""
-          }
-        },
-        "image_F7pzij": {
-          "type": "image",
-          "settings": {
-            "position": "7",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/uv-bodysuits",
-            "text_color": ""
-          }
-        },
-        "image_BNz78i": {
-          "type": "image",
-          "settings": {
-            "position": "7",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/pride-2024",
-            "text_color": ""
-          }
-        },
         "image_JADE9R": {
           "type": "image",
           "settings": {
@@ -187,12 +103,6 @@
         }
       },
       "block_order": [
-        "image_JMej6B",
-        "image_BVGCmT",
-        "image_6Gf7CC",
-        "image_j73KPt",
-        "image_F7pzij",
-        "image_BNz78i",
         "image_JADE9R",
         "image_Bh7Yj9"
       ],
