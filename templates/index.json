@@ -16,7 +16,6 @@
           "type": "collection",
           "settings": {
             "collection": "fairy",
-            "collection_image": "shopify://shop_images/fairyMINIDesk_copy.jpg",
             "title": ""
           }
         },
@@ -24,7 +23,6 @@
           "type": "collection",
           "settings": {
             "collection": "witches",
-            "collection_image": "shopify://shop_images/witchesMINIDesk_copy.jpg",
             "title": ""
           }
         },
@@ -32,7 +30,6 @@
           "type": "collection",
           "settings": {
             "collection": "halloween-zombies",
-            "collection_image": "shopify://shop_images/scaryMINIDesk_copy.jpg",
             "title": ""
           }
         },
@@ -40,7 +37,6 @@
           "type": "collection",
           "settings": {
             "collection": "halloween-skeletons",
-            "collection_image": "shopify://shop_images/skeletonMINIDesk_copy.jpg",
             "title": ""
           }
         },
@@ -48,7 +44,6 @@
           "type": "collection",
           "settings": {
             "collection": "pop-culture",
-            "collection_image": "shopify://shop_images/popCultMINIDesk_copy.jpg",
             "title": ""
           }
         }
@@ -129,14 +124,46 @@
     },
     "section_hero_9QPMnh": {
       "type": "section-hero",
+      "blocks": {
+        "text_awXxVq": {
+          "type": "text",
+          "settings": {
+            "description": "IBIZA GLOW",
+            "text_size": 5,
+            "text_style": "font-heading"
+          }
+        },
+        "heading_edJJBg": {
+          "type": "heading",
+          "settings": {
+            "title": "Brillez tout l’été, vibrez Ibiza.",
+            "heading_size": 8
+          }
+        },
+        "button_G6wNMb": {
+          "type": "button",
+          "settings": {
+            "link_text": "NOUVEAUTÉS",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_awXxVq",
+        "heading_edJJBg",
+        "button_G6wNMb"
+      ],
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/statixDesk2.png",
+        "image_1": "shopify://shop_images/Hero-Image-11-scaled-_1__2.png",
         "link": "shopify://collections/statix",
         "mobile_height": "image-height--mobile",
-        "mobile_image": "shopify://shop_images/statixMobil2.png",
-        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_desktop": "align--bottom-center-desktop",
         "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 0,
         "overlay_color": "#000000",
@@ -192,10 +219,8 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/UVPulseBig_copy.jpg",
         "link": "shopify://collections/uv-bodysuits",
         "mobile_height": "image-height--mobile",
-        "mobile_image": "shopify://shop_images/UvPulseMobile_copy.jpg",
         "flex_align_desktop": "align--middle-center-desktop",
         "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 0,
@@ -252,10 +277,8 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/menFavesDesk.jpg",
         "link": "shopify://collections/bestsellers-men",
         "mobile_height": "image-height--mobile",
-        "mobile_image": "shopify://shop_images/menMobile_copy.jpg",
         "flex_align_desktop": "align--middle-center-desktop",
         "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 0,
@@ -313,10 +336,8 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/prideDesk.jpg",
         "link": "shopify://collections/pride-2023-2024",
         "mobile_height": "image-height--mobile",
-        "mobile_image": "shopify://shop_images/prideMOBILE_copy.jpg",
         "flex_align_desktop": "align--middle-center-desktop",
         "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 0,
@@ -376,7 +397,6 @@
         "image_NzB6zd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DarkDesk.jpg",
             "image_aspect_ratio": 1.5,
             "mobile_image_aspect_ratio": 1.5,
             "image_shape": "normal",
@@ -395,7 +415,6 @@
         "image_xd4GPV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/primalDesk.jpg",
             "image_aspect_ratio": 1.5,
             "mobile_image_aspect_ratio": 1.5,
             "image_shape": "normal",
@@ -414,7 +433,6 @@
         "image_tYCHix": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/FairyBig_copy.jpg",
             "image_aspect_ratio": 1.5,
             "mobile_image_aspect_ratio": 1.5,
             "image_shape": "normal",
@@ -461,7 +479,6 @@
         "image_MPCHRe": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/meshDesk.jpg",
             "image_aspect_ratio": 1.3,
             "mobile_image_aspect_ratio": 1.3,
             "image_shape": "normal",
@@ -480,7 +497,6 @@
         "image_DcEGrJ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/dressesDesk.jpg",
             "image_aspect_ratio": 1.3,
             "mobile_image_aspect_ratio": 1.3,
             "image_shape": "normal",
@@ -499,7 +515,6 @@
         "image_AWpFpX": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/bodysuitsDesk.jpg",
             "image_aspect_ratio": 1.3,
             "mobile_image_aspect_ratio": 1.3,
             "image_shape": "normal",
@@ -518,7 +533,6 @@
         "image_PEhUEH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/sets_Desktop.jpg",
             "image_aspect_ratio": 1.3,
             "mobile_image_aspect_ratio": 1.3,
             "image_shape": "normal",
@@ -537,7 +551,6 @@
         "image_dYeyBh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/accessoriesDesk.jpg",
             "image_aspect_ratio": 1.3,
             "mobile_image_aspect_ratio": 1.3,
             "image_shape": "normal",
@@ -556,7 +569,6 @@
         "image_7wDiVD": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/shinyDesk.jpg",
             "image_aspect_ratio": 1.3,
             "mobile_image_aspect_ratio": 1.3,
             "image_shape": "normal",
@@ -607,7 +619,6 @@
         "image_yyCTAX": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/shinyDesk.jpg",
             "image_aspect_ratio": 1.5,
             "mobile_image_aspect_ratio": 1,
             "image_shape": "normal",
@@ -653,8 +664,6 @@
         "image_cp8rAT": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/XTRABOGODesktopBanner_2.jpg",
-            "mobile_image": "shopify://shop_images/XTRABOGOMobileBanner_3.jpg",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "show_overlay_text": false,
@@ -701,7 +710,6 @@
         "image": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Best_Woman_s.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "show_overlay_text": false,
@@ -723,7 +731,6 @@
         "image_pGRBVV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Best_Man_s.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "show_overlay_text": false,
@@ -765,7 +772,6 @@
         "image_JqgzWh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Cyber_1.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "show_overlay_text": false,
@@ -787,7 +793,6 @@
         "image_pyhLBj": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Neon_Faves.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "show_overlay_text": false,
@@ -836,47 +841,12 @@
     },
     "1709024451cfcbbc24": {
       "type": "apps",
-      "blocks": {
-        "instafeed_app_block_n6k3L9": {
-          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "title": "",
-            "title_color": "",
-            "title_size": 0,
-            "alignment": "center",
-            "margin_top": 0,
-            "background_color": "",
-            "feed_id": "",
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "instafeed_app_block_n6k3L9"
-      ],
       "settings": {
         "include_margins": false
       }
     },
     "17090352937390cc62": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_agg_section_Um3n6K": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": true,
-            "product_handle": "",
-            "aggregated": true,
-            "data-limit": 16,
-            "maxwidth": 1400,
-            "is_sample": false
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_agg_section_Um3n6K"
-      ],
       "settings": {
         "include_margins": false
       }

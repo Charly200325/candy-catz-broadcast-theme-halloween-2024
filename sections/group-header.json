@@ -73,20 +73,6 @@
     "header": {
       "type": "header",
       "blocks": {
-        "image_JADE9R": {
-          "type": "image",
-          "settings": {
-            "position": "7",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/rave",
-            "text_color": ""
-          }
-        },
         "image_Bh7Yj9": {
           "type": "image",
           "settings": {
@@ -103,7 +89,6 @@
         }
       },
       "block_order": [
-        "image_JADE9R",
         "image_Bh7Yj9"
       ],
       "custom_css": [
