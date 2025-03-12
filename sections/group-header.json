@@ -73,195 +73,10 @@
     "header": {
       "type": "header",
       "blocks": {
-        "image_RgLCC4": {
-          "type": "image",
-          "settings": {
-            "position": "1",
-            "image": "shopify://shop_images/darkSearchBar_copy2.jpg",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/dark",
-            "text_color": ""
-          }
-        },
-        "image_WwXa7Y": {
-          "type": "image",
-          "settings": {
-            "position": "1",
-            "image": "shopify://shop_images/raveWaveMobileX2_copy_bed3923e-1e84-4b45-a614-60b31db0b9eb.jpg",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/rave",
-            "text_color": ""
-          }
-        },
-        "image_cjaiDG": {
-          "type": "image",
-          "settings": {
-            "position": "1",
-            "image": "shopify://shop_images/uvPulseMenu.jpg",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/uv-bodysuits",
-            "text_color": ""
-          }
-        },
-        "image_qbnhRi": {
-          "type": "image",
-          "settings": {
-            "position": "1",
-            "image": "shopify://shop_images/WOMENFavMobileX2_copy.jpg",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/bestsellers-women",
-            "text_color": ""
-          }
-        },
-        "image_PRrw3r": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "position": "2",
-            "image": "shopify://shop_images/halloweenMobileX2_copy.jpg",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/new-all-halloween",
-            "text_color": ""
-          }
-        },
-        "image_fLR878": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "position": "2",
-            "image": "shopify://shop_images/skeletonMobileX2.jpg",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/halloween-skeletons",
-            "text_color": ""
-          }
-        },
-        "image_eBrgwq": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "position": "2",
-            "image": "shopify://shop_images/fairyMobileX2_copy.jpg",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/fairy",
-            "text_color": ""
-          }
-        },
-        "image_3pfbpN": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "position": "2",
-            "image": "shopify://shop_images/witchMobileX2_copy.jpg",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/witches",
-            "text_color": ""
-          }
-        },
-        "image_3zjcMV": {
-          "type": "image",
-          "settings": {
-            "position": "4",
-            "image": "shopify://shop_images/WOMENFavMobileX2_copy_cfc897f5-03fc-492c-806a-8bceb54c177d.jpg",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/bestsellers-women",
-            "text_color": ""
-          }
-        },
-        "image_EUcbnJ": {
-          "type": "image",
-          "settings": {
-            "position": "4",
-            "image": "shopify://shop_images/fullCotumes_X2_copy.jpg",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/full-bodysuits",
-            "text_color": ""
-          }
-        },
-        "image_xKTgat": {
-          "type": "image",
-          "settings": {
-            "position": "4",
-            "image": "shopify://shop_images/bodysuitesX2_copy.jpg",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/bodysuits",
-            "text_color": ""
-          }
-        },
-        "image_mFdBRf": {
-          "type": "image",
-          "settings": {
-            "position": "4",
-            "image": "shopify://shop_images/dressesX2_copy.jpg",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/all-dresses",
-            "text_color": ""
-          }
-        },
         "image_jN8PEc": {
           "type": "image",
           "settings": {
             "position": "5",
-            "image": "shopify://shop_images/MENSFAVESX2_copy.jpg",
             "aspect_ratio": 0.6,
             "wide_image": true,
             "overlay_opacity": 0,
@@ -276,7 +91,6 @@
           "type": "image",
           "settings": {
             "position": "5",
-            "image": "shopify://shop_images/sonicSurgeX2_copy.jpg",
             "aspect_ratio": 0.6,
             "wide_image": true,
             "overlay_opacity": 0,
@@ -291,7 +105,6 @@
           "type": "image",
           "settings": {
             "position": "5",
-            "image": "shopify://shop_images/primalX2.222_copy.jpg",
             "aspect_ratio": 0.6,
             "wide_image": true,
             "overlay_opacity": 0,
@@ -306,7 +119,6 @@
           "type": "image",
           "settings": {
             "position": "5",
-            "image": "shopify://shop_images/prideMen.jpg",
             "aspect_ratio": 0.6,
             "wide_image": true,
             "overlay_opacity": 0,
@@ -321,7 +133,6 @@
           "type": "image",
           "settings": {
             "position": "6",
-            "image": "shopify://shop_images/obisidiaSearchBAr_2.jpg",
             "aspect_ratio": 0.9,
             "wide_image": true,
             "overlay_opacity": 0,
@@ -336,7 +147,6 @@
           "type": "image",
           "settings": {
             "position": "6",
-            "image": "shopify://shop_images/darkSearchBar_copy2.jpg",
             "aspect_ratio": 0.9,
             "wide_image": true,
             "overlay_opacity": 0,
@@ -351,7 +161,6 @@
           "type": "image",
           "settings": {
             "position": "6",
-            "image": "shopify://shop_images/uvPulseSearchBar_copy.jpg",
             "aspect_ratio": 0.9,
             "wide_image": true,
             "overlay_opacity": 0,
@@ -366,7 +175,6 @@
           "type": "image",
           "settings": {
             "position": "6",
-            "image": "shopify://shop_images/menSearchBar_2.jpg",
             "aspect_ratio": 0.9,
             "wide_image": true,
             "overlay_opacity": 0,
@@ -381,7 +189,6 @@
           "type": "image",
           "settings": {
             "position": "6",
-            "image": "shopify://shop_images/view_all_copy.jpg",
             "aspect_ratio": 0.9,
             "wide_image": true,
             "overlay_opacity": 0,
@@ -396,7 +203,6 @@
           "type": "image",
           "settings": {
             "position": "7",
-            "image": "shopify://shop_images/uvPulseMenu.jpg",
             "aspect_ratio": 0.6,
             "wide_image": true,
             "overlay_opacity": 0,
@@ -411,7 +217,6 @@
           "type": "image",
           "settings": {
             "position": "7",
-            "image": "shopify://shop_images/prideX2_copy.jpg",
             "aspect_ratio": 0.6,
             "wide_image": true,
             "overlay_opacity": 0,
@@ -426,7 +231,6 @@
           "type": "image",
           "settings": {
             "position": "7",
-            "image": "shopify://shop_images/raveWaveMobileX2_copy_bed3923e-1e84-4b45-a614-60b31db0b9eb.jpg",
             "aspect_ratio": 0.6,
             "wide_image": true,
             "overlay_opacity": 0,
@@ -441,7 +245,6 @@
           "type": "image",
           "settings": {
             "position": "7",
-            "image": "shopify://shop_images/inTheShadowsX2_copy.jpg",
             "aspect_ratio": 0.6,
             "wide_image": true,
             "overlay_opacity": 0,
@@ -454,18 +257,6 @@
         }
       },
       "block_order": [
-        "image_RgLCC4",
-        "image_WwXa7Y",
-        "image_cjaiDG",
-        "image_qbnhRi",
-        "image_PRrw3r",
-        "image_fLR878",
-        "image_eBrgwq",
-        "image_3pfbpN",
-        "image_3zjcMV",
-        "image_EUcbnJ",
-        "image_xKTgat",
-        "image_mFdBRf",
         "image_jN8PEc",
         "image_64a4Di",
         "image_EMmXeU",
@@ -493,11 +284,10 @@
         "show_icons": true,
         "icon_as_circle": false,
         "cart_icon_family": "cart",
-        "logo": "shopify://shop_images/XxxLogo.jpg",
         "logo_max_limit": 125,
         "logo_max_limit_mobile": 125,
-        "main_menu_linklist": "broadcast-theme-main-menu",
-        "mobile_menu_linklist": "new-mobile-navigation-menu-5th-october-2024",
+        "main_menu_linklist": "",
+        "mobile_menu_linklist": "",
         "enable_search": true,
         "show_social_icons": true,
         "show_locale_selector": false,
@@ -511,7 +301,7 @@
         "transparent_collection": false,
         "transparent_article": false,
         "transparent_page": false,
-        "secondary_menu_linklist": "broadcast-theme-mobile-secondary-menu",
+        "secondary_menu_linklist": "",
         "tertiary_menu_linklist": "",
         "padding_top": 30,
         "padding_bottom": 10
