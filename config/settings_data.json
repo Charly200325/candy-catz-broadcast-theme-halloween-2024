@@ -9,8 +9,8 @@
  */
 {
   "current": {
-    "text_color": "#ffffff",
-    "bg_color": "#000000",
+    "text_color": "#000000",
+    "bg_color": "#ffffff",
     "secondary_bg_color": "#f7f9fa",
     "accent_bright": "#cb4fd4",
     "link_color": "#a4a4a4",
@@ -18,12 +18,12 @@
     "sale_color": "#d20000",
     "high_contrast": false,
     "header_bg": "#ffffff",
-    "header_link": "#ffffff",
-    "menu_bg_color": "#000000",
-    "menu_link_color": "#ffffff",
+    "header_link": "#000000",
+    "menu_bg_color": "#ffffff",
+    "menu_link_color": "#000000",
     "submenu_bg_color": "#000000",
-    "submenu_link_color": "#ffffff",
-    "menu_transparent_color": "#ffffff",
+    "submenu_link_color": "#000000",
+    "menu_transparent_color": "#000000",
     "footer_bg": "#000000",
     "footer_border": "#212121",
     "footer_text": "#ec6af5",
@@ -141,88 +141,7 @@
         "settings": {}
       }
     },
-    "content_for_index": [],
-    "blocks": {
-      "11532412952436166569": {
-        "type": "shopify://apps/loox-reviews/blocks/loox-inject/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-        "disabled": false,
-        "settings": {}
-      },
-      "98be8eaf-c81a-477b-83db-1b6de7313048": {
-        "type": "shopify://apps/boost-ai-search-discovery/blocks/boost-sd/7fc998ae-a150-4367-bab8-505d8a4503f7",
-        "disabled": false,
-        "settings": {}
-      },
-      "385851483394302733": {
-        "type": "shopify://apps/scroll-freely-infinite-scroll/blocks/scroll-freely/ab81353f-60e9-48db-81f5-5b6037635a06",
-        "disabled": true,
-        "settings": {}
-      },
-      "855628211100114053": {
-        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {}
-      },
-      "3824936769257688723": {
-        "type": "shopify://apps/sami-product-labels/blocks/app-embed-block/b9b44663-5d51-4be1-8104-faedd68da8c5",
-        "disabled": false,
-        "settings": {}
-      },
-      "wholesale_gorilla": {
-        "type": "shopify://apps/wholesale-gorilla/blocks/wsg-header/c48d0487-dff9-41a4-94c8-ec6173fe8b8d",
-        "disabled": false,
-        "settings": {
-          "embed_bg_color": "#000000",
-          "embed_text_color": "#000000",
-          "embed_SPOF_label": ""
-        }
-      },
-      "14952540001915115444": {
-        "type": "shopify://apps/upcart-cart-drawer/blocks/app-embed/af3da5fb-f5f7-40ec-8273-41bf50059d4b",
-        "disabled": false,
-        "settings": {}
-      },
-      "17453258828962521766": {
-        "type": "shopify://apps/captain-insure/blocks/app/a7ef2f88-bc96-4a68-ba4e-f042ccbc8beb",
-        "disabled": false,
-        "settings": {}
-      },
-      "17676059084223943535": {
-        "type": "shopify://apps/triplewhale/blocks/triple_pixel_snippet/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
-        "disabled": false,
-        "settings": {}
-      },
-      "12512365888938011351": {
-        "type": "shopify://apps/analyzify-ga4-ads-tracking/blocks/app-embed/69637cfd-dd6f-4511-aa97-7037cfb5515c",
-        "disabled": false,
-        "settings": {}
-      },
-      "3678330922655817062": {
-        "type": "shopify://apps/boost-ai-search-discovery/blocks/boost-sd-ssr/7fc998ae-a150-4367-bab8-505d8a4503f7",
-        "disabled": true,
-        "settings": {
-          "templateId": "",
-          "productGridSelector": ""
-        }
-      },
-      "15796953133730294439": {
-        "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.embed.socialshopwave-helper/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-        "disabled": false,
-        "settings": {}
-      },
-      "16548475241908962911": {
-        "type": "shopify://apps/oxi-social-login/blocks/social-login-embed/24ad60bc-8f09-42fa-807e-e5eda0fdae17",
-        "disabled": false,
-        "settings": {
-          "enabled_on_page": "account"
-        }
-      },
-      "11973264549492426220": {
-        "type": "shopify://apps/currency-converter/blocks/app-embed-block/a56d6bd1-e9df-4a4a-b98e-e9bb5c43a042",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    "content_for_index": []
   },
   "presets": {
     "Clean": {
