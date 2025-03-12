@@ -20,54 +20,10 @@
             "padding_bottom": 8
           }
         },
-        "growave_loyalty_wishlist_block_product_fave_button_NHXFWw": {
-          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.product.faveButton/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "settings": {
-            "option_button_class": ""
-          }
-        },
-        "loox_reviews_loox_rating_BCKDnV": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "disabled": true,
-          "settings": {
-            "contentSize": 14,
-            "pattern": "",
-            "hideText": false,
-            "alignment": "",
-            "layout": "",
-            "textColor": "",
-            "starColor": "#000000",
-            "showAllReviews": true,
-            "looxOpenFloatingWidget": false,
-            "emptyRatingWidget": false
-          }
-        },
-        "loox_reviews_loox_rating_mdMCD6": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "contentSize": 16,
-            "pattern": "",
-            "hideText": false,
-            "alignment": "",
-            "layout": "",
-            "textColor": "",
-            "starColor": "",
-            "showAllReviews": false,
-            "looxOpenFloatingWidget": false,
-            "emptyRatingWidget": false
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
             "padding_bottom": 16
-          }
-        },
-        "kiwi_size_chart_recommender_kiwi_sizing_HGHDmB": {
-          "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
-          "settings": {
-            "product": "",
-            "waitForElementSelector": ""
           }
         },
         "popup_xcAGBi": {
@@ -94,64 +50,10 @@
         "buttons": {
           "type": "buttons",
           "settings": {
-            "show_quantity": true,
+            "show_quantity": false,
             "show_payment_button": false,
             "show_gift_card_recipient": false,
             "padding_bottom": 32
-          }
-        },
-        "sami_product_labels_app_block_highlight_ABJWqm": {
-          "type": "shopify://apps/sami-product-labels/blocks/app-block-highlight/b9b44663-5d51-4be1-8104-faedd68da8c5",
-          "settings": {
-            "shortcode": "<div class=\"samitaPL-highlight\" data-id=\"932\"></div>"
-          }
-        },
-        "icon_dYwiFr": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-flower",
-            "icon_size": 20,
-            "icon_color": "#35ca52",
-            "title": "Limited-Edition Art Prints",
-            "text_size": 3,
-            "width": "full",
-            "padding_bottom": 16
-          }
-        },
-        "icon_VT6hKn": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-star",
-            "icon_size": 20,
-            "icon_color": "#4374d7",
-            "title": "Tested for Ideal Comfortable Fit",
-            "text_size": 3,
-            "width": "full",
-            "padding_bottom": 16
-          }
-        },
-        "icon_HGhAMg": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-heart",
-            "icon_size": 20,
-            "icon_color": "#f40c0c",
-            "title": "Soft and Premium Fabrics",
-            "text_size": 3,
-            "width": "full",
-            "padding_bottom": 16
-          }
-        },
-        "icon_i78Tap": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-droplet",
-            "icon_size": 20,
-            "icon_color": "#d226d0",
-            "title": "Secure & Reliable Payment Process",
-            "text_size": 3,
-            "width": "full",
-            "padding_bottom": 16
           }
         },
         "divider_D73gCW": {
@@ -167,7 +69,7 @@
             "show_read_more": false,
             "style": "tabs",
             "title_1": "SHIPPING & RETURNS",
-            "raw_content_1": "<p>Our orders typically blast off within 1-5 days, but hey, even rockets have to refuel sometimes. For the full story, swing by our <a href=\"/pages/shipping\" title=\"Shipping\"><em>Shipping Information Page</em></a>. Delivery times depend on your location:</p><p><strong>Standard Shipping with USPS</strong><br/>&gt; United States - 7-10 business days.<br/>&gt; Europe - 5-7 business days.<br/>&gt; Rest of the World - 10 business days</p><p><strong>Express Shipping with DHL or FedEx</strong><br/>&gt; United States - 2-3 business days.<br/>&gt; Europe - 1-2 business days.<br/>&gt; Rest of the World - 2-5 business days</p><p>You've got a 30-day safety net from delivery to send it back. Take a look at our return policy <a href=\"/pages/returns\" title=\"Returns\"><em>here</em></a>.</p>",
+            "raw_content_1": "<p>Our orders typically blast off within 1-5 days, but hey, even rockets have to refuel sometimes. For the full story, swing by our <a href=\"/pages/shipping\" title=\"Shipping\"><em>Shipping Information Page</em></a>. Delivery times depend on your location:</p><p><strong>Standard Shipping with USPS</strong><br/>&gt; United States - 7-10 business days.<br/>&gt; Europe - 5-7 business days.<br/>&gt; Rest of the World - 10 business days</p><p>You've got a 30-day safety net from delivery to send it back. Take a look at our return policy <a href=\"/pages/returns\" title=\"Returns\"><em>here</em></a>.</p>",
             "title_2": "",
             "raw_content_2": "",
             "title_3": "",
@@ -201,19 +103,10 @@
       },
       "block_order": [
         "title",
-        "growave_loyalty_wishlist_block_product_fave_button_NHXFWw",
-        "loox_reviews_loox_rating_BCKDnV",
-        "loox_reviews_loox_rating_mdMCD6",
         "price",
-        "kiwi_size_chart_recommender_kiwi_sizing_HGHDmB",
         "popup_xcAGBi",
         "variants",
         "buttons",
-        "sami_product_labels_app_block_highlight_ABJWqm",
-        "icon_dYwiFr",
-        "icon_VT6hKn",
-        "icon_HGhAMg",
-        "icon_i78Tap",
         "divider_D73gCW",
         "tabs",
         "upsell_Miyb47",
@@ -298,6 +191,48 @@
         "layout_mobile": "1"
       }
     },
+    "section_tab_collections_tiEBtY": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_LFXTL6": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "description": "",
+            "color": "#fff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_LFXTL6"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "layout_desktop": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
     "related": {
       "type": "related",
       "blocks": {
@@ -333,22 +268,6 @@
     },
     "171059549045b3a026": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_dynamic_section_LMbTCJ": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "aggregated": false,
-            "limit": 20,
-            "hide_thumbnails": false,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_LMbTCJ"
-      ],
       "settings": {
         "include_margins": false
       }
@@ -357,6 +276,7 @@
   "order": [
     "main",
     "section_multicolumn_jGFDmN",
+    "section_tab_collections_tiEBtY",
     "related",
     "171059549045b3a026"
   ]
