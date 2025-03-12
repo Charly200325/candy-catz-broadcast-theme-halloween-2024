@@ -73,76 +73,6 @@
     "header": {
       "type": "header",
       "blocks": {
-        "image_jN8PEc": {
-          "type": "image",
-          "settings": {
-            "position": "5",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/bestsellers-men",
-            "text_color": ""
-          }
-        },
-        "image_64a4Di": {
-          "type": "image",
-          "settings": {
-            "position": "5",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/sonic-surge",
-            "text_color": ""
-          }
-        },
-        "image_EMmXeU": {
-          "type": "image",
-          "settings": {
-            "position": "5",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/all-animal-prints",
-            "text_color": ""
-          }
-        },
-        "image_BX33Ge": {
-          "type": "image",
-          "settings": {
-            "position": "5",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/pride-men",
-            "text_color": ""
-          }
-        },
-        "image_3wN3Cm": {
-          "type": "image",
-          "settings": {
-            "position": "6",
-            "aspect_ratio": 0.9,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/obsidia",
-            "text_color": ""
-          }
-        },
         "image_JMej6B": {
           "type": "image",
           "settings": {
@@ -257,11 +187,6 @@
         }
       },
       "block_order": [
-        "image_jN8PEc",
-        "image_64a4Di",
-        "image_EMmXeU",
-        "image_BX33Ge",
-        "image_3wN3Cm",
         "image_JMej6B",
         "image_BVGCmT",
         "image_6Gf7CC",
