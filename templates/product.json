@@ -68,36 +68,17 @@
           "settings": {
             "show_read_more": false,
             "style": "tabs",
-            "title_1": "SHIPPING & RETURNS",
+            "title_1": "LIVRAISON",
             "raw_content_1": "<p>Our orders typically blast off within 1-5 days, but hey, even rockets have to refuel sometimes. For the full story, swing by our <a href=\"/pages/shipping\" title=\"Shipping\"><em>Shipping Information Page</em></a>. Delivery times depend on your location:</p><p><strong>Standard Shipping with USPS</strong><br/>&gt; United States - 7-10 business days.<br/>&gt; Europe - 5-7 business days.<br/>&gt; Rest of the World - 10 business days</p><p>You've got a 30-day safety net from delivery to send it back. Take a look at our return policy <a href=\"/pages/returns\" title=\"Returns\"><em>here</em></a>.</p>",
-            "title_2": "",
+            "title_2": "RETOUR",
             "raw_content_2": "",
-            "title_3": "",
+            "title_3": "fgfbvfdfgfr",
             "raw_content_3": "",
             "title_4": "",
             "raw_content_4": "",
             "title_5": "",
             "raw_content_5": "",
             "padding_bottom": 0
-          }
-        },
-        "upsell_Miyb47": {
-          "type": "upsell",
-          "disabled": true,
-          "settings": {
-            "upsell_product": "jack-bag",
-            "upsell_product_list": [],
-            "bg_color": "",
-            "padding_bottom": 16
-          }
-        },
-        "badges_adcwXL": {
-          "type": "badges",
-          "disabled": true,
-          "settings": {
-            "sale_badge": true,
-            "product_badges": true,
-            "padding_bottom": 8
           }
         }
       },
@@ -108,9 +89,7 @@
         "variants",
         "buttons",
         "divider_D73gCW",
-        "tabs",
-        "upsell_Miyb47",
-        "badges_adcwXL"
+        "tabs"
       ],
       "custom_css": [],
       "settings": {
@@ -125,72 +104,6 @@
         "padding_bottom": 30
       }
     },
-    "section_multicolumn_jGFDmN": {
-      "type": "section-multicolumn",
-      "blocks": {
-        "icon_Q9iQHg": {
-          "type": "icon",
-          "settings": {
-            "column_width": 32,
-            "icon_name": "icon-smile",
-            "icon_size": 20,
-            "icon_alignment": "icon--left",
-            "icon_color": "#545454",
-            "title": "30-DAY RETURN GUARANTEE",
-            "heading_size": 3,
-            "text": "<p>You've got a whole 30 days from the day you got your goodies to send 'em back and score either a refund or some store credit</p>",
-            "text_size": 3
-          }
-        },
-        "icon_YiAXr8": {
-          "type": "icon",
-          "settings": {
-            "column_width": 33,
-            "icon_name": "icon-fast-shipment",
-            "icon_size": 20,
-            "icon_alignment": "icon--left",
-            "icon_color": "#545454",
-            "title": "FAST SHIPPING",
-            "heading_size": 3,
-            "text": "<p>Our shipping magic usually happens within 1-5 business days. Picture us as the busy bees of the delivery world.</p>",
-            "text_size": 3
-          }
-        },
-        "icon_FUKdf7": {
-          "type": "icon",
-          "settings": {
-            "column_width": 33,
-            "icon_name": "icon-cloud",
-            "icon_size": 20,
-            "icon_alignment": "icon--left",
-            "icon_color": "#545454",
-            "title": "LET'S CHAT",
-            "heading_size": 3,
-            "text": "<p>Wondering about life, the universe, and everything? <a href=\"/pages/contact-us\" target=\"_blank\" title=\"Contact us\">Get in touch</a>, we're always up for a chat!</p>",
-            "text_size": 3
-          }
-        }
-      },
-      "block_order": [
-        "icon_Q9iQHg",
-        "icon_YiAXr8",
-        "icon_FUKdf7"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": 5,
-        "description": "",
-        "align_heading": "text-left",
-        "align_text": "text-left",
-        "align_columns": "flex-align-top",
-        "width": "wrapper--full-padded",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "layout_mobile": "1"
-      }
-    },
     "section_tab_collections_tiEBtY": {
       "type": "section-tab-collections",
       "blocks": {
@@ -202,9 +115,9 @@
             "show_image": true,
             "align_with_product_images": false,
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "description": "",
-            "color": "#fff",
+            "color": "#ffffff",
             "link_text": "View products",
             "link": "",
             "button_type": "btn--white",
@@ -275,7 +188,6 @@
   },
   "order": [
     "main",
-    "section_multicolumn_jGFDmN",
     "section_tab_collections_tiEBtY",
     "related",
     "171059549045b3a026"
