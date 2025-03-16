@@ -185,7 +185,7 @@
           "type": "collection",
           "settings": {
             "title": "The Black",
-            "featured_collection": "statix",
+            "featured_collection": "nouveautes",
             "show_image": false,
             "align_with_product_images": false,
             "overlay_opacity": 0,
@@ -205,7 +205,7 @@
         "collection_ExxwCQ"
       ],
       "settings": {
-        "title": "",
+        "title": "NOUVEAUTÉS",
         "text": "",
         "layout": "stacked",
         "show_product_count": false,
