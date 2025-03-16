@@ -118,7 +118,8 @@
         "collection_bHhMYW": {
           "type": "collection",
           "settings": {
-            "collection": "fairy",
+            "collection": "hauts",
+            "collection_image": "shopify://shop_images/Copie_de_ROBES.png",
             "title": ""
           }
         },
