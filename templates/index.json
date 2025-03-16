@@ -158,8 +158,8 @@
         "align_heading": "text-center",
         "align_text": "text-center",
         "icon_alignment": "icon--top",
-        "align_columns": "flex-align-top",
-        "width": "wrapper",
+        "align_columns": "flex-align-center",
+        "width": "wrapper--full-padded",
         "bg_color": "",
         "color": "",
         "padding_top": 50,
@@ -186,19 +186,19 @@
             "title": ""
           }
         },
-        "collection_q9DQPR": {
-          "type": "collection",
-          "settings": {
-            "collection": "ensembles",
-            "collection_image": "shopify://shop_images/Copie_de_Copie_de_ROBES.png",
-            "title": ""
-          }
-        },
         "collection_XwLqPz": {
           "type": "collection",
           "settings": {
             "collection": "bas",
             "collection_image": "shopify://shop_images/Copie_de_ROBES_1.png",
+            "title": ""
+          }
+        },
+        "collection_q9DQPR": {
+          "type": "collection",
+          "settings": {
+            "collection": "ensembles",
+            "collection_image": "shopify://shop_images/Copie_de_Copie_de_ROBES.png",
             "title": ""
           }
         },
@@ -209,14 +209,22 @@
             "collection_image": "shopify://shop_images/Copie_de_Copie_de_Copie_de_ROBES.png",
             "title": ""
           }
+        },
+        "collection_kT3TeK": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
         }
       },
       "block_order": [
         "collection_drdcBt",
         "collection_bHhMYW",
-        "collection_q9DQPR",
         "collection_XwLqPz",
-        "collection_jUzNpP"
+        "collection_q9DQPR",
+        "collection_jUzNpP",
+        "collection_kT3TeK"
       ],
       "custom_css": [
         ".grid {gap: 3px;}",
@@ -233,8 +241,8 @@
         "show_arrow": false,
         "layout": "grid",
         "aspect_ratio": 1.2,
-        "grid": 5,
-        "layout_mobile": "slider",
+        "grid": 6,
+        "layout_mobile": "2",
         "bg_color": "",
         "color": "",
         "padding_top": 0,
@@ -285,6 +293,7 @@
     },
     "section_hero_WzHaFX": {
       "type": "section-hero",
+      "disabled": true,
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
@@ -325,6 +334,7 @@
       "block_order": [
         "tabs-0"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "text": "",
@@ -343,6 +353,7 @@
     },
     "section_hero_PFp7m6": {
       "type": "section-hero",
+      "disabled": true,
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
@@ -383,6 +394,7 @@
       "block_order": [
         "collection_XPTEYq"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "text": "",
@@ -498,30 +510,11 @@
             "button_style": "btn--solid",
             "show_arrow": false
           }
-        },
-        "image_tYCHix": {
-          "type": "image",
-          "settings": {
-            "image_aspect_ratio": 1.5,
-            "mobile_image_aspect_ratio": 1.5,
-            "image_shape": "normal",
-            "title": "",
-            "heading_size": 4,
-            "text": "",
-            "text_size": 3,
-            "button_text": "",
-            "button_url": "shopify://collections/fairy",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
         }
       },
       "block_order": [
         "image_NzB6zd",
-        "image_xd4GPV",
-        "image_tYCHix"
+        "image_xd4GPV"
       ],
       "custom_css": [
         ".wrapper--full-padded {padding-left: 0; padding-right: 0;}"
@@ -530,11 +523,11 @@
         "title": "",
         "heading_size": 5,
         "layout": "grid",
-        "grid": 3,
-        "align_heading": "text-left",
-        "align_text": "text-left",
+        "grid": 2,
+        "align_heading": "text-center",
+        "align_text": "text-center",
         "align_columns": "flex-align-center",
-        "width": "wrapper--full-padded",
+        "width": "wrapper",
         "bg_color": "",
         "color": "",
         "padding_top": 0,
