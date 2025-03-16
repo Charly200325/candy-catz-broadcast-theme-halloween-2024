@@ -134,7 +134,8 @@
         "collection_XwLqPz": {
           "type": "collection",
           "settings": {
-            "collection": "halloween-zombies",
+            "collection": "bas",
+            "collection_image": "shopify://shop_images/Copie_de_ROBES_1.png",
             "title": ""
           }
         },
