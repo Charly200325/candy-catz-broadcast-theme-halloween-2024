@@ -142,14 +142,8 @@
         "collection_jUzNpP": {
           "type": "collection",
           "settings": {
-            "collection": "halloween-skeletons",
-            "title": ""
-          }
-        },
-        "collection_mMr8Tt": {
-          "type": "collection",
-          "settings": {
-            "collection": "pop-culture",
+            "collection": "accesoires",
+            "collection_image": "shopify://shop_images/Copie_de_Copie_de_Copie_de_ROBES.png",
             "title": ""
           }
         }
@@ -159,8 +153,7 @@
         "collection_bHhMYW",
         "collection_q9DQPR",
         "collection_XwLqPz",
-        "collection_jUzNpP",
-        "collection_mMr8Tt"
+        "collection_jUzNpP"
       ],
       "custom_css": [
         ".grid {gap: 3px;}",
