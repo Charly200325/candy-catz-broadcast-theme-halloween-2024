@@ -478,6 +478,7 @@
         "image_NzB6zd": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/IBIZA_OUTFIT.png",
             "image_aspect_ratio": 1.5,
             "mobile_image_aspect_ratio": 1.5,
             "image_shape": "normal",
@@ -521,7 +522,7 @@
       ],
       "settings": {
         "title": "",
-        "heading_size": 5,
+        "heading_size": 2,
         "layout": "grid",
         "grid": 2,
         "align_heading": "text-center",
