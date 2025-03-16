@@ -107,6 +107,14 @@
     "section_collections_list_GmreYY": {
       "type": "section-collections-list",
       "blocks": {
+        "collection_drdcBt": {
+          "type": "collection",
+          "settings": {
+            "collection": "robes",
+            "collection_image": "shopify://shop_images/ROBES.png",
+            "title": "ROBES"
+          }
+        },
         "collection_bHhMYW": {
           "type": "collection",
           "settings": {
@@ -144,6 +152,7 @@
         }
       },
       "block_order": [
+        "collection_drdcBt",
         "collection_bHhMYW",
         "collection_q9DQPR",
         "collection_XwLqPz",
