@@ -497,6 +497,7 @@
         "image_xd4GPV": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Copie_de_IBIZA_OUTFIT_2_1.png",
             "image_aspect_ratio": 1.5,
             "mobile_image_aspect_ratio": 1.5,
             "image_shape": "normal",
