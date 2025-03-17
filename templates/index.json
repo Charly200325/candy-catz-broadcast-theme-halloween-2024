@@ -530,86 +530,13 @@
         "padding_bottom": 50
       }
     },
-    "section_announcement_fKAGUA": {
-      "type": "section-announcement",
-      "blocks": {
-        "text_fYkkwp": {
-          "type": "text",
-          "settings": {
-            "text": "<p>tag us and follow @peppermayo</p>",
-            "text_style": "font-body",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "text_pVKTJT": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Create a scrolling marquee or a simple announcement</strong></p>",
-            "text_style": "font-body",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        }
-      },
-      "block_order": [
-        "text_fYkkwp",
-        "text_pVKTJT"
-      ],
-      "settings": {
-        "show_border": false,
-        "layout": "marquee",
-        "slider_speed": 7,
-        "text_alignment": "center",
-        "marquee_speed": 100,
-        "direction": "ticker-rtl",
-        "message_spacing": 10,
-        "text_size": 2,
-        "bg_color": "",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "section_announcement_MALCg4": {
       "type": "section-announcement",
       "blocks": {
         "text_G3xyTg": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Make an announcement</strong> | Target to specific devices or referrers</p>",
-            "text_style": "font-body",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "text_VGFE77": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Create a free shipping countdown</strong></p>",
-            "text_style": "font-body",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "message_8WLppB": {
-          "type": "message",
-          "settings": {
-            "show_wheel": false,
-            "message": "You are ||amount|| away from free shipping.",
-            "text_style": "font-body",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "text_ccLg6x": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Create a scrolling marquee or a simple announcement</strong></p>",
+            "text": "<p>Tag us and follow @peppermayo</p>",
             "text_style": "font-body",
             "color": "",
             "target_device_enabled": false,
@@ -618,24 +545,21 @@
         }
       },
       "block_order": [
-        "text_G3xyTg",
-        "text_VGFE77",
-        "message_8WLppB",
-        "text_ccLg6x"
+        "text_G3xyTg"
       ],
       "settings": {
         "show_border": false,
         "layout": "marquee",
-        "slider_speed": 7,
+        "slider_speed": 8,
         "text_alignment": "center",
         "marquee_speed": 100,
-        "direction": "ticker-rtl",
+        "direction": "ticker-ltr",
         "message_spacing": 10,
         "text_size": 2,
         "bg_color": "",
         "color": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 31
       }
     },
     "section_columns_4WHbj7": {
@@ -1038,7 +962,6 @@
     "section_columns_A4ftKr",
     "section_recent_products_JDLyDg",
     "section_collection_4FY74D",
-    "section_announcement_fKAGUA",
     "section_announcement_MALCg4",
     "section_columns_4WHbj7",
     "section_columns_L8WDEH",
