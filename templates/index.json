@@ -536,6 +536,7 @@
         "image_MPCHRe": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/FF91AED3-58EB-47A9-9B36-F3518AB1A490-885x1024.webp",
             "image_aspect_ratio": 1.3,
             "mobile_image_aspect_ratio": 1.3,
             "image_shape": "normal",
@@ -554,6 +555,7 @@
         "image_DcEGrJ": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Ac60ed324c2c4451babd346b47b903fc7p.jpg__11zon.webp",
             "image_aspect_ratio": 1.3,
             "mobile_image_aspect_ratio": 1.3,
             "image_shape": "normal",
@@ -572,6 +574,7 @@
         "image_AWpFpX": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/A80ca74883d6545158328feeae28ddcea4.png__11zon.webp",
             "image_aspect_ratio": 1.3,
             "mobile_image_aspect_ratio": 1.3,
             "image_shape": "normal",
