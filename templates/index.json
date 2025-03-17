@@ -428,50 +428,6 @@
         "color": "#ffffff"
       }
     },
-    "section_tab_collections_Lj3G4p": {
-      "type": "section-tab-collections",
-      "blocks": {
-        "collection_4ep79h": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "title": "",
-            "featured_collection": "pride-2024",
-            "show_image": false,
-            "align_with_product_images": false,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "description": "",
-            "color": "#ffffff",
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "collection_4ep79h"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "text": "",
-        "layout": "stacked",
-        "show_product_count": false,
-        "layout_desktop": "slider",
-        "layout_mobile": "slider",
-        "product_limit": 12,
-        "grid": 2,
-        "rows": 1,
-        "bg_color": "",
-        "color": "",
-        "padding_top": 10,
-        "padding_bottom": 10
-      }
-    },
     "section_columns_A4ftKr": {
       "type": "section-columns",
       "blocks": {
@@ -540,7 +496,7 @@
     "section_recent_products_JDLyDg": {
       "type": "section-recent-products",
       "settings": {
-        "product_recently_heading": "Recently viewed",
+        "product_recently_heading": "Recommandé pour vous",
         "product_recently_limit": 6,
         "product_recently_minimum": 4,
         "bg_color": "",
@@ -551,6 +507,7 @@
     },
     "section_collection_4FY74D": {
       "type": "section-collection",
+      "disabled": true,
       "settings": {
         "heading": "Best Sellers",
         "description": "",
@@ -963,7 +920,6 @@
     "section_hero_PFp7m6",
     "section_tab_collections_Wc3GNb",
     "section_hero_qjKLXr",
-    "section_tab_collections_Lj3G4p",
     "section_columns_A4ftKr",
     "section_recent_products_JDLyDg",
     "section_collection_4FY74D",
