@@ -536,7 +536,7 @@
         "text_G3xyTg": {
           "type": "text",
           "settings": {
-            "text": "<p>Taguez-nous et suivez @ibizaglow</p>",
+            "text": "<p>taguez-nous et suivez @ibizaglow</p>",
             "text_style": "font-heading",
             "color": "#000000",
             "target_device_enabled": false,
@@ -555,7 +555,7 @@
         "marquee_speed": 100,
         "direction": "ticker-ltr",
         "message_spacing": 10,
-        "text_size": 2,
+        "text_size": 5,
         "bg_color": "",
         "color": "",
         "padding_top": 0,
