@@ -593,6 +593,7 @@
         "image_PEhUEH": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Aab4ebfec26ff4ce19dd89328ff56e306u.jpg__11zon.webp",
             "image_aspect_ratio": 1.3,
             "mobile_image_aspect_ratio": 1.3,
             "image_shape": "normal",
