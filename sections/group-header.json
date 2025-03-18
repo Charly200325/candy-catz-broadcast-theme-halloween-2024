@@ -72,25 +72,6 @@
     },
     "header": {
       "type": "header",
-      "blocks": {
-        "image_Bh7Yj9": {
-          "type": "image",
-          "settings": {
-            "position": "7",
-            "aspect_ratio": 0.6,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "link_text": "",
-            "link": "shopify://collections/in-the-shadows",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_Bh7Yj9"
-      ],
       "custom_css": [
         ".navlink.navlink--child span {color: #d980ef;}",
         ".grandparent .navlink--child {margin-bottom: 3px;}",
