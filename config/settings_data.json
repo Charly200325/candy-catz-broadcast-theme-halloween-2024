@@ -393,7 +393,9 @@
   "platform_customizations": {
     "custom_css": [
       ".boost-sd__fallback-header {display: none;}",
-      ".boost-sd__fallback-toolbar {display: none;}"
+      ".boost-sd__fallback-toolbar {display: none;}",
+      ".boost-sd__fallback-product-image {height: 40vw; object-fit: cover; }",
+      ".boost-sd__fallback-product-price-wrapper {justify-content: center; }"
     ]
   }
 }
