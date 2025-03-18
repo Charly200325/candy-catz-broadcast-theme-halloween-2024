@@ -72,7 +72,7 @@
     "show_lines": false,
     "show_labels": false,
     "variant_lines": true,
-    "sale_badge": true,
+    "sale_badge": false,
     "color_swatches": false,
     "swatch_style": "circle",
     "favicon": "shopify://shop_images/favicon-32x32_6887d16e-2ed2-4575-82a6-357d1b9c85c8.png",
