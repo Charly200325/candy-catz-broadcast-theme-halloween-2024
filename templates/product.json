@@ -29,7 +29,7 @@
         "popup_xcAGBi": {
           "type": "popup",
           "settings": {
-            "title": "Size Chart",
+            "title": "Guide des tailles",
             "text": "",
             "page": "sizing-chart",
             "icon_name": "icon-ruler",
