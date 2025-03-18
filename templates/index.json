@@ -214,6 +214,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "collection_image": "shopify://shop_images/Copie_de_Sans_titre_8.png",
             "title": ""
           }
         }
