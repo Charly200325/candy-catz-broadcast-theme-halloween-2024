@@ -30,13 +30,14 @@
     },
     "hero": {
       "type": "collection-image-with-title",
+      "disabled": true,
       "settings": {
         "show_title": false,
-        "show_description": true,
+        "show_description": false,
         "flex_align": "align--middle-left",
         "bg_color": "",
         "color": "",
-        "show_image": true,
+        "show_image": false,
         "banner_layout": "overlay",
         "height": "screen-height-one-third",
         "mobile_height": "screen-height-one-half--mobile",
