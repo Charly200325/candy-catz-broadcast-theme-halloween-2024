@@ -389,6 +389,8 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      ".boost-sd__fallback-header {display: none;}"
+    ]
   }
 }

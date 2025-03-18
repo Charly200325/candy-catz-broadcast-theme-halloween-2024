@@ -11,6 +11,7 @@
   "sections": {
     "9fef3eec-374d-4aa8-966c-d05b3537df60": {
       "type": "apps",
+      "disabled": true,
       "settings": {
         "include_margins": false
       }
