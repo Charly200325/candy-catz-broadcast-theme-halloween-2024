@@ -394,10 +394,10 @@
     "custom_css": [
       ".boost-sd__fallback-header {display: none;}",
       ".boost-sd__fallback-toolbar {display: none;}",
-      ".boost-sd__fallback-product-image {height: 40vw; object-fit: cover;}",
+      ".boost-sd__fallback-product-image {height: 40vw; max-height:420; object-fit: cover;}",
       ".boost-sd__fallback-product-price-wrapper {justify-content: center;}",
       ".boost-sd__fallback-product-link h2 {text-align: center;}",
-      ".boost-sd__fallback-button{display:none;}"
+      ".boost-sd__fallback-button {display: none;}"
     ]
   }
 }
