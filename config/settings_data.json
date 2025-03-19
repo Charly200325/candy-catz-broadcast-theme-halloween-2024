@@ -404,7 +404,7 @@
       ".boost-sd__fallback-product-price-wrapper {justify-content: center;}",
       ".boost-sd__fallback-button {display: none;}",
       ".boost-sd__fallback-product-image {height: 40vw; object-fit: cover; max-height: 450px; min-height: 250px;}",
-      ".announcement__wrapper--top{position:relative}"
+      ".announcement__wrapper--top {position: relative!important;}"
     ]
   }
 }
