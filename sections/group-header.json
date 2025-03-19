@@ -20,7 +20,7 @@
             "text": "<p>Livraison gratuite à partir de 70 € • Paiement 100% Sécurisé •  Retour Gratuit   </p>",
             "target_url_enabled": false,
             "target_url": "",
-            "target_referrer_enabled": true,
+            "target_referrer_enabled": false,
             "target_referrer": "",
             "target_device_enabled": false,
             "target_device": "mobile"
