@@ -25,22 +25,10 @@
             "target_device_enabled": false,
             "target_device": "mobile"
           }
-        },
-        "countdown_KDEgXW": {
-          "type": "countdown",
-          "settings": {
-            "end_date": "2025-02-5",
-            "end_time": "16:00",
-            "period": "pm",
-            "end_message": "<p>Offer has expired</p>",
-            "hide_on_complete": true,
-            "text": ""
-          }
         }
       },
       "block_order": [
-        "text_Pm7cMa",
-        "countdown_KDEgXW"
+        "text_Pm7cMa"
       ],
       "settings": {
         "show_border": false,
