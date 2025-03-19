@@ -86,7 +86,7 @@
         "icon_as_circle": false,
         "cart_icon_family": "cart",
         "logo": "shopify://shop_images/fontbolt.png",
-        "logo_max_limit": 295,
+        "logo_max_limit": 150,
         "logo_max_limit_mobile": 125,
         "main_menu_linklist": "main-menu",
         "mobile_menu_linklist": "",
