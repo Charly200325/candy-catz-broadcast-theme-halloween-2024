@@ -78,15 +78,15 @@
         ".dropdown__family {padding: 5px 0 15px 10px;}"
       ],
       "settings": {
-        "header_sticky": true,
+        "header_sticky": false,
         "header_style": "logo_above",
         "show_separator_line": false,
         "separator_opacity": 50,
         "show_icons": true,
         "icon_as_circle": false,
         "cart_icon_family": "cart",
-        "logo": "shopify://shop_images/fontbolt.png",
-        "logo_max_limit": 150,
+        "logo": "shopify://shop_images/IBIZA_GLOW_1.png",
+        "logo_max_limit": 155,
         "logo_max_limit_mobile": 125,
         "main_menu_linklist": "main-menu",
         "mobile_menu_linklist": "",
