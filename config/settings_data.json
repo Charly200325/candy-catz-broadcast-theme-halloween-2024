@@ -30,6 +30,7 @@
     "footer_link": "#ffffff",
     "type_heading_font": "cardo_n4",
     "type_heading_size": 115,
+    "type_heading_uppercase": false,
     "type_sub_font": "body",
     "type_base_font": "cardo_n4",
     "type_body_size": 110,
