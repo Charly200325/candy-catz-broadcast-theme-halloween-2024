@@ -544,6 +544,9 @@
       },
       "throttle": {
         "cart_summary_heading": "Votre panier"
+      },
+      "general": {
+        "cart": "Panier"
       }
     }
   }
