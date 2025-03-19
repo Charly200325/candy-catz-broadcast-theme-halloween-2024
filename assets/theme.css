@@ -24136,7 +24136,7 @@ body.has-header-sticky .timeline {
 
 /* Making the announcement bar fixed on top of the page */
 .header-sections .shopify-section.shopify-section-group-group-header.page-announcement {
-  position: fixed;
+  position: relative;
   top: 0;
   z-index: 6000;
 }
