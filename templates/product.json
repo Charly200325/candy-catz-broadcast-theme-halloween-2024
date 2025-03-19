@@ -110,14 +110,14 @@
         "related": {
           "type": "related",
           "settings": {
-            "product_recommendations_heading": "RELATED PRODUCTS",
+            "product_recommendations_heading": "RECOMMMANDÉ POUR VOUS",
             "limit": 6
           }
         },
         "recent_AMxW4H": {
           "type": "recent",
           "settings": {
-            "product_recently_heading": "RECENTLY VIEWED",
+            "product_recently_heading": "VU RÉCEMMENT",
             "product_recently_limit": 6
           }
         }
