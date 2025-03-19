@@ -175,7 +175,7 @@
       "remove": "Retirer",
       "subtotal": "Sous-total",
       "subtotal_items": "Articles",
-      "subtotal_note": "hors taxes et frais de livraison",
+      "subtotal_note": "",
       "customer_note": "Donnez une note au vendeur",
       "cart_notes_label": "Ajouter des notes de commande",
       "pair_products": "Paire avec",
