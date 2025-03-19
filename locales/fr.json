@@ -541,6 +541,9 @@
     "checkout": {
       "order_summary": {
         "shopping_cart_label": "Panier"
+      },
+      "throttle": {
+        "cart_summary_heading": "Votre panier"
       }
     }
   }
