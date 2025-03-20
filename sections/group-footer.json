@@ -11,6 +11,17 @@
   "type": "footer",
   "name": "Footer",
   "sections": {
+    "section_divider_rxTcQe": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -37,7 +48,6 @@
         },
         "footer-1": {
           "type": "linklist",
-          "disabled": true,
           "settings": {
             "linklist": "main-menu",
             "title": "MENU",
@@ -87,17 +97,6 @@
         "show_country_flag": false,
         "padding_top": 30,
         "padding_bottom": 30
-      }
-    },
-    "section_divider_rxTcQe": {
-      "type": "section-divider",
-      "settings": {
-        "show_line": true,
-        "width": "wrapper--full-padded",
-        "border_color": "",
-        "bg_color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
       }
     }
   },
