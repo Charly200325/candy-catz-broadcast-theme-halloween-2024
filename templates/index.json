@@ -499,7 +499,7 @@
     "section_recent_products_JDLyDg": {
       "type": "section-recent-products",
       "settings": {
-        "product_recently_heading": "Recommandé pour vous",
+        "product_recently_heading": "RECOMMANDÉ POUR VOUS",
         "product_recently_limit": 6,
         "product_recently_minimum": 4,
         "bg_color": "",
