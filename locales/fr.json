@@ -547,6 +547,9 @@
       },
       "general": {
         "cart": "Panier"
+      },
+      "shop_policies": {
+        "refund_policy": "Politique de Retour et de Remboursement"
       }
     }
   }
