@@ -104,6 +104,7 @@
     },
     "supporting-menu": {
       "type": "section-supporting-menu",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "linklist": "",
