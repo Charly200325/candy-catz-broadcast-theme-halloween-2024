@@ -25,6 +25,22 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "newsletter_DNLz4q": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
+            "show_name": false,
+            "button_text": "Join",
+            "show_arrow": false,
+            "terms": true,
+            "button_type": "btn--black",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "column_width": 33
+          }
+        },
         "social_KAfkyF": {
           "type": "social",
           "disabled": true,
@@ -48,6 +64,7 @@
         },
         "footer-1": {
           "type": "linklist",
+          "disabled": true,
           "settings": {
             "linklist": "main-menu",
             "title": "MENU",
@@ -56,15 +73,15 @@
         },
         "linklist_Y4yNg9": {
           "type": "linklist",
-          "disabled": true,
           "settings": {
             "linklist": "footer",
-            "title": "ABOUT",
+            "title": "INFOS",
             "column_width": 20
           }
         }
       },
       "block_order": [
+        "newsletter_DNLz4q",
         "social_KAfkyF",
         "footer-2",
         "footer-1",
