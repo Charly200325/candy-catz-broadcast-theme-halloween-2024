@@ -29,7 +29,7 @@
           "type": "newsletter",
           "settings": {
             "title": "S’abonner à la newsletter",
-            "text": "<p>Inscrivez-vous pour rester informé(e) et soyez le premier à découvrir nos nouveautés, soldes et offres exclusives. </p><p>Profitez également de 10 % de réduction sur votre premier achat !</p>",
+            "text": "<p>Bénéficiez de 10 % de réduction sur votre premier achat !</p><p>Restez informé et soyez le premier à découvrir nos nouveautés, soldes et offres exclusives.</p>",
             "show_name": false,
             "button_text": "S'ABONNER",
             "show_arrow": true,
