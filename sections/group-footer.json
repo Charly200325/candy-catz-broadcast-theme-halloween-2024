@@ -27,7 +27,6 @@
       "blocks": {
         "newsletter_DNLz4q": {
           "type": "newsletter",
-          "disabled": true,
           "settings": {
             "title": "S’abonner à la newsletter",
             "text": "<p>Bénéficiez de 10 % de réduction sur votre premier achat !</p><p>Restez informé et soyez le premier à découvrir nos nouveautés, soldes et offres exclusives.</p>",
