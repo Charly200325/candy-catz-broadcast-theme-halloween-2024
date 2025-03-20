@@ -113,6 +113,7 @@
             "icon_name": "icon-box",
             "icon_size": 40,
             "icon_color": "#000000",
+            "image": "shopify://shop_images/Shipping_Icon_0cd5e4e0-a2ad-4efd-91b1-30e58faec6f7.webp",
             "title": "Livraison gratuite",
             "heading_size": 2,
             "text": "<p>Pour les commandes de 75 € et plus</p>",
@@ -125,6 +126,7 @@
             "icon_name": "icon-recycle",
             "icon_size": 40,
             "icon_color": "#000000",
+            "image": "shopify://shop_images/Returns_Icon_f4a5d773-1a83-4be3-853c-d9b318ebaab7.png",
             "title": "Retours gratuits",
             "heading_size": 2,
             "text": "<p>Dans les 30 jours suivant l'achat</p>",
@@ -137,10 +139,10 @@
             "icon_name": "icon-shield",
             "icon_size": 40,
             "icon_color": "#000000",
-            "image": "shopify://shop_images/cadenas_1.png",
-            "title": "Paiements sécurisés",
+            "image": "shopify://shop_images/Hanger_Icon_239ca553-4c9c-4ec6-b209-2ca3d11468ca.png",
+            "title": "Nouveautés & Exclusivités",
             "heading_size": 2,
-            "text": "<p>Carte Bancaire, PayPal, Apple Pay..</p>",
+            "text": "<p>Nouveautés chaque semaine</p>",
             "text_size": 1
           }
         }
