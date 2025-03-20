@@ -75,7 +75,7 @@
           "type": "linklist",
           "settings": {
             "linklist": "footer",
-            "title": "INFOS",
+            "title": "Informations",
             "column_width": 20
           }
         }
