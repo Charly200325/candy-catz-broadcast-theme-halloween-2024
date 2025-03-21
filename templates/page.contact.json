@@ -67,6 +67,7 @@
         },
         "Urgent-checkbox": {
           "type": "checkbox",
+          "disabled": true,
           "settings": {
             "title": "C'est urgent",
             "required": false
