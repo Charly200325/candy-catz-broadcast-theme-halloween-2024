@@ -29,10 +29,10 @@
     "contact": {
       "type": "contact-form",
       "blocks": {
-        "Name": {
+        "text_8NVniH": {
           "type": "text",
           "settings": {
-            "title": "Full Name",
+            "title": "Nom",
             "required": false
           }
         },
@@ -78,7 +78,7 @@
         }
       },
       "block_order": [
-        "Name",
+        "text_8NVniH",
         "Email",
         "Message",
         "Optional-text",
