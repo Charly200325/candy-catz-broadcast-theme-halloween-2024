@@ -54,7 +54,7 @@
     "parallax_enable": false,
     "parallax_strength": 20,
     "product_grid_outline": false,
-    "show_scroll_top_button": false,
+    "show_scroll_top_button": true,
     "instagram_link": "",
     "facebook_link": "",
     "twitter_link": "",
