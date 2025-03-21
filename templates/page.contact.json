@@ -44,6 +44,13 @@
             "required": true
           }
         },
+        "text_aT7Pyq": {
+          "type": "text",
+          "settings": {
+            "title": "Numéro de commande",
+            "required": false
+          }
+        },
         "Message": {
           "type": "body",
           "settings": {
@@ -60,7 +67,6 @@
         },
         "Urgent-checkbox": {
           "type": "checkbox",
-          "disabled": true,
           "settings": {
             "title": "C'est urgent",
             "required": false
@@ -83,6 +89,7 @@
       "block_order": [
         "text_8NVniH",
         "Email",
+        "text_aT7Pyq",
         "Message",
         "Optional-text",
         "Urgent-checkbox",
