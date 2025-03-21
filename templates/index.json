@@ -76,7 +76,7 @@
           "type": "button",
           "settings": {
             "link_text": "‎",
-            "link": "shopify://collections",
+            "link": "shopify://collections/all",
             "button_type": "btn--primary",
             "button_size": "btn--large",
             "button_style": "btn--text",
