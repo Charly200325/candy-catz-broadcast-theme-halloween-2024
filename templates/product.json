@@ -127,7 +127,7 @@
         "recent_AMxW4H"
       ],
       "settings": {
-        "enable_tabs": true,
+        "enable_tabs": false,
         "heading_alignment": "text-center",
         "heading_size": 4,
         "bg_color": "",
