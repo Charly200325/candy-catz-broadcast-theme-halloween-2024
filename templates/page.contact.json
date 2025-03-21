@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "subheading_size": 3,
@@ -52,14 +53,16 @@
         },
         "Optional-text": {
           "type": "formHeading",
+          "disabled": true,
           "settings": {
-            "title": "Optional"
+            "title": ""
           }
         },
         "Urgent-checkbox": {
           "type": "checkbox",
+          "disabled": true,
           "settings": {
-            "title": "This is urgent",
+            "title": "C'est urgent",
             "required": false
           }
         },
@@ -86,7 +89,7 @@
         "Options-select"
       ],
       "settings": {
-        "title": "",
+        "title": "CONTACTEZ-NOUS",
         "terms": true,
         "width": "wrapper--narrow",
         "bg_color": "",
