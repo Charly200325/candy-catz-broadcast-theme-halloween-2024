@@ -124,6 +124,9 @@ https://flickity.metafizzy.co
 .flickity-enabled {
   position: relative;
 }
+#SectionColumns--template--24881401823573__section_columns_4WHbj7{
+  overflow:hidden;
+}
 
 .flickity-enabled:focus {
   outline: none;
