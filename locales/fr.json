@@ -45,7 +45,7 @@
       "name": "Prénom",
       "submit": "S'inscrire",
       "placeholder": "Adresse e-mail",
-      "thank_you": "Merci! Vous recevrez un email de notre part bientôt.",
+      "thank_you": "Merci ! Vous recevrez bientôt un email de notre part. Pensez à vérifier vos spams.",
       "thank_you_with_code_html": "Merci pour votre inscription! Vous pouvez utiliser ce code <span>Remise de 10 %</span> pour votre prochaine commande !",
       "error_message": "Ce client est déjà inscrit !"
     },
