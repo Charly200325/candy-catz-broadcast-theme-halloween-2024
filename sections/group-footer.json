@@ -64,6 +64,7 @@
         },
         "footer-1": {
           "type": "linklist",
+          "disabled": true,
           "settings": {
             "linklist": "main-menu",
             "title": "MENU",
@@ -72,6 +73,7 @@
         },
         "linklist_Y4yNg9": {
           "type": "linklist",
+          "disabled": true,
           "settings": {
             "linklist": "footer",
             "title": "Informations",
@@ -98,15 +100,22 @@
     },
     "supporting-menu": {
       "type": "section-supporting-menu",
-      "disabled": true,
       "custom_css": [],
       "settings": {
-        "linklist": "",
+        "linklist": "footer",
         "footer_payment_enable": true,
-        "show_locale_selector": false,
-        "show_country_selector": false,
-        "show_country_name": false,
-        "show_country_flag": false,
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_country_name": true,
+        "show_country_flag": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_anchor_logo_f8x3wj": {
+      "type": "section-anchor-logo",
+      "settings": {
+        "logo": "shopify://shop_images/PASTELMIST_1_1__enhanced_402452b1-7af4-456a-ae0f-f82d2369dd8c.png",
         "padding_top": 30,
         "padding_bottom": 30
       }
@@ -115,6 +124,7 @@
   "order": [
     "section_divider_rxTcQe",
     "footer",
+    "section_anchor_logo_f8x3wj",
     "supporting-menu"
   ]
 }
