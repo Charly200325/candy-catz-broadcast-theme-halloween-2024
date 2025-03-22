@@ -15,7 +15,7 @@
       "type": "section-divider",
       "settings": {
         "show_line": true,
-        "width": "wrapper--full-padded",
+        "width": "wrapper",
         "border_color": "",
         "bg_color": "",
         "padding_top": 0,
@@ -29,11 +29,11 @@
           "type": "newsletter",
           "settings": {
             "title": "S’abonner à la newsletter",
-            "text": "<p>Bénéficiez de 10 % de réduction sur votre premier achat !</p><p>Restez informé et soyez le premier à découvrir nos nouveautés, soldes et offres exclusives.</p>",
+            "text": "<p>Bénéficiez de 10 % de réduction sur votre première commande !</p><p>Restez informé et soyez le premier à découvrir nos nouveautés, soldes et offres exclusives.</p>",
             "show_name": false,
             "button_text": "S'ABONNER",
             "show_arrow": true,
-            "terms": false,
+            "terms": true,
             "button_type": "btn--black",
             "button_size": "",
             "button_style": "btn--solid",
