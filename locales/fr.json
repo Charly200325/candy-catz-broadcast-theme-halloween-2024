@@ -554,7 +554,7 @@
     },
     "email_marketing": {
       "subscribed": {
-        "confirmation": "Bienvenue chez Pastelmist ! ☀️ Pour vous remercier de nous avoir rejoints, vous venez de recevoir dans votre boîte mail un code promo de -10% à utiliser sur votre première commande ! "
+        "confirmation": "Merci pour votre abonnement à notre newsletter ! En guise de remerciement, vous venez de recevoir un email contenant un code promo de -10% à utiliser sur votre première commande."
       }
     }
   }
