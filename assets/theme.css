@@ -24265,8 +24265,8 @@ nav.drawer .drawer__body .drawer__menu {
 
 /* Changing the colors of the scroll to top button */
 .btn.btn--scroll-top.btn--solid.is-visible {
-  background-color: #cb4fd4;
-  border: #cb4fd4;
+  background-color: #000;
+  border: #000;
 }
 
 /*----- PRODUCT PAGE -----*/
@@ -24492,7 +24492,7 @@ nav.drawer .drawer__body .drawer__menu {
 
 
 .loox-icon {
-  color: #CB4FD4!important;
+  color: #000!important;
 }
 
 .boost-sd-right .boost-sd__toolbar-inner .boost-sd__toolbar-content {
