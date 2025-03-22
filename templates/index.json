@@ -216,7 +216,7 @@
         "collection_kT3TeK": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "all",
             "collection_image": "shopify://shop_images/Copie_de_Sans_titre_8.png",
             "title": ""
           }
