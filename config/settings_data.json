@@ -406,7 +406,7 @@
       ".boost-sd__fallback-product-price-wrapper {justify-content: center;}",
       ".boost-sd__fallback-button {display: none;}",
       ".boost-sd__fallback-product-image {height: 40vw; object-fit: cover; max-height: 450px; min-height: 250px;}",
-      ".tab-content.tab-content-1.tabs__recently-viewed.current{display:none;}"
+      "@media only screen an (max-width:750px){.tab-content.tab-content-1.tabs__recently-viewed.current {display: none;}}"
     ]
   }
 }
