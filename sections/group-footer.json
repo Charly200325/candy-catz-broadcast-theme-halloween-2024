@@ -64,9 +64,8 @@
         },
         "footer-1": {
           "type": "linklist",
-          "disabled": true,
           "settings": {
-            "linklist": "main-menu",
+            "linklist": "customer-account-main-menu",
             "title": "MENU",
             "column_width": 20
           }
