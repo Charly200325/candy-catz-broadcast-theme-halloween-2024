@@ -65,7 +65,7 @@
         "footer-1": {
           "type": "linklist",
           "settings": {
-            "linklist": "customer-account-main-menu",
+            "linklist": "main-menu",
             "title": "MENU",
             "column_width": 20
           }
@@ -86,12 +86,7 @@
         "footer-1",
         "linklist_Y4yNg9"
       ],
-      "custom_css": [
-        ".footer__quicklinks li {margin-bottom: 5px; font-size: 16px;}",
-        ".footer__block__title {font-size: 20px;}",
-        ".footer__blocks {justify-content: center;}",
-        ".footer__block {display: flex; flex-direction: column; align-items: center;}"
-      ],
+      "custom_css": [],
       "settings": {
         "logo_image_width": 200,
         "overlay_opacity": 100,
