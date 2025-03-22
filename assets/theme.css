@@ -232,6 +232,9 @@ body:not(.is-focused) .flickity-button:focus {
   .flickity-prev-next-button {
     display: none;
   }
+  .tabs__recently-viewed current {
+    display: none;
+  }
 }
 
 .flickity-prev-next-button:after {
