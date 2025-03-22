@@ -950,6 +950,12 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "174266799076fcd0e4": {
+      "type": "apps",
+      "settings": {
+        "include_margins": false
+      }
     }
   },
   "order": [
@@ -974,6 +980,7 @@
     "product-with-image",
     "section_custom_code_k3793W",
     "1709024451cfcbbc24",
-    "17090352937390cc62"
+    "17090352937390cc62",
+    "174266799076fcd0e4"
   ]
 }
