@@ -127,7 +127,7 @@
         "recent_AMxW4H"
       ],
       "custom_css": [
-        "@media max-width(750px){.tabs__recently-viewed current {display: none; }}"
+        "@media max-width(750px) {.tabs__recently-viewed{display: none; }}"
       ],
       "settings": {
         "enable_tabs": false,
