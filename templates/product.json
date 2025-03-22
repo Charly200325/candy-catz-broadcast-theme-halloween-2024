@@ -126,9 +126,7 @@
         "related",
         "recent_AMxW4H"
       ],
-      "custom_css": [
-        "@media max-width(750px) {.tabs__recently-viewed{display: none; }}"
-      ],
+      "custom_css": [],
       "settings": {
         "enable_tabs": false,
         "heading_alignment": "text-center",
