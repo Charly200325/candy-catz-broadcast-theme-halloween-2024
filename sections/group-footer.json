@@ -88,7 +88,12 @@
         "footer-1",
         "linklist_Y4yNg9"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".footer__quicklinks li {margin-bottom: 5px; font-size: 16px;}",
+        ".footer__block__title {font-size: 20px;}",
+        ".footer__blocks {justify-content: center;}",
+        ".footer__block {display: flex; flex-direction: column; align-items: center;}"
+      ],
       "settings": {
         "logo_image_width": 200,
         "overlay_opacity": 100,
@@ -96,6 +101,14 @@
         "border_color": "#212121",
         "padding_top": 40,
         "padding_bottom": 0
+      }
+    },
+    "section_anchor_logo_f8x3wj": {
+      "type": "section-anchor-logo",
+      "settings": {
+        "logo": "shopify://shop_images/PASTELMIST_1_1__enhanced_402452b1-7af4-456a-ae0f-f82d2369dd8c.png",
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "supporting-menu": {
@@ -108,14 +121,6 @@
         "show_country_selector": true,
         "show_country_name": true,
         "show_country_flag": true,
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
-    "section_anchor_logo_f8x3wj": {
-      "type": "section-anchor-logo",
-      "settings": {
-        "logo": "shopify://shop_images/PASTELMIST_1_1__enhanced_402452b1-7af4-456a-ae0f-f82d2369dd8c.png",
         "padding_top": 30,
         "padding_bottom": 30
       }
