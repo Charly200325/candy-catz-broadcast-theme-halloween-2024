@@ -106,6 +106,7 @@
     },
     "section_anchor_logo_f8x3wj": {
       "type": "section-anchor-logo",
+      "disabled": true,
       "settings": {
         "logo": "shopify://shop_images/Design_sans_titre_35_.-fotor-enhance-20250322164528.jpg",
         "padding_top": 30,
