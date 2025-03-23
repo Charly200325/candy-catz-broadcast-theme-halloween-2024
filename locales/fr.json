@@ -202,7 +202,7 @@
         "one": "et vous avez {{count}} produit dans le panier",
         "other": "et vous avez {{count}} produits dans le panier"
       },
-      "qualified_shipping_message": "Votre commande est qualifié pour la livraison gratuite"
+      "qualified_shipping_message": "Votre commande est éligible à la livraison gratuite !"
     },
     "shipping_calculator": {
       "estimate_shipping": "Estimer les frais de livraison",
