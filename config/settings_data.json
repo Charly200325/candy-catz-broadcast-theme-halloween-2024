@@ -406,6 +406,15 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      ".boost-sd__fallback-header {display: none;}",
+      ".boost-sd__fallback-toolbar {display: none;}",
+      ".boost-sd__fallback-product-title {text-align: center;}",
+      ".boost-sd__fallback-product-price-wrapper {justify-content: center;}",
+      ".boost-sd__fallback-button {display: none;}",
+      ".boost-sd__fallback-product-image {height: 40vw; object-fit: cover; max-height: 450px; min-height: 250px;}",
+      "@media only screen and (max-width: 750px) {.tab-content.tab-content-1.tabs__recently-viewed.current {display: none; }}",
+      ".footer__newsletter__wrapper {text-align: center;}"
+    ]
   }
 }
