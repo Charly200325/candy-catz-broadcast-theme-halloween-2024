@@ -509,6 +509,12 @@
         "padding_bottom": 0
       }
     },
+    "17432098972a6c66fb": {
+      "type": "apps",
+      "settings": {
+        "include_margins": false
+      }
+    },
     "section_collection_4FY74D": {
       "type": "section-collection",
       "disabled": true,
@@ -965,6 +971,7 @@
     "section_hero_qjKLXr",
     "section_columns_A4ftKr",
     "section_recent_products_JDLyDg",
+    "17432098972a6c66fb",
     "section_collection_4FY74D",
     "section_announcement_MALCg4",
     "section_columns_4WHbj7",
