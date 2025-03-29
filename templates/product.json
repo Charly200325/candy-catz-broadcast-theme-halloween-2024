@@ -85,10 +85,6 @@
             "raw_content_5": "",
             "padding_bottom": 0
           }
-        },
-        "judge_me_reviews_preview_badge_LiePya": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
         }
       },
       "block_order": [
@@ -99,8 +95,7 @@
         "variants_jHMVhm",
         "buttons",
         "divider_D73gCW",
-        "tabs",
-        "judge_me_reviews_preview_badge_LiePya"
+        "tabs"
       ],
       "custom_css": [],
       "settings": {
