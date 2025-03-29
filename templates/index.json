@@ -682,6 +682,44 @@
             "button_style": "btn--solid",
             "show_arrow": false
           }
+        },
+        "image_8JjBxy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BACK_IN-_The_Mali_Knit_Dress_in_Orange_1.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_79D8Ym": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/My_holidayyyy.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
         }
       },
       "block_order": [
@@ -690,7 +728,9 @@
         "image_DcEGrJ",
         "image_AWpFpX",
         "image_PEhUEH",
-        "image_7wDiVD"
+        "image_7wDiVD",
+        "image_8JjBxy",
+        "image_79D8Ym"
       ],
       "custom_css": [
         ".wrapper--full-padded {padding-left: 0; padding-right: 0;}",
@@ -939,12 +979,6 @@
         "padding_bottom": 0
       }
     },
-    "1709024451cfcbbc24": {
-      "type": "apps",
-      "settings": {
-        "include_margins": false
-      }
-    },
     "17090352937390cc62": {
       "type": "apps",
       "settings": {
@@ -979,7 +1013,6 @@
     "image-with-text",
     "product-with-image",
     "section_custom_code_k3793W",
-    "1709024451cfcbbc24",
     "17090352937390cc62",
     "174266799076fcd0e4"
   ]
