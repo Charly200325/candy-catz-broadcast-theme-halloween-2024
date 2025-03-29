@@ -85,6 +85,19 @@
             "raw_content_5": "",
             "padding_bottom": 0
           }
+        },
+        "inventory_countdown_B7GHG3": {
+          "type": "inventory_countdown",
+          "settings": {
+            "show_notice": "always",
+            "max_inventory": 10,
+            "hide_inventory_counter": true,
+            "icon_size": 20,
+            "in_stock_color": "#56AD6A",
+            "low_stock_color": "#f79554",
+            "out_of_stock_color": "#721C24",
+            "padding_bottom": 16
+          }
         }
       },
       "block_order": [
@@ -95,7 +108,8 @@
         "variants_jHMVhm",
         "buttons",
         "divider_D73gCW",
-        "tabs"
+        "tabs",
+        "inventory_countdown_B7GHG3"
       ],
       "custom_css": [],
       "settings": {
