@@ -81,7 +81,7 @@
     "swatch_style": "circle",
     "favicon": "shopify://shop_images/favicon-32x32_6887d16e-2ed2-4575-82a6-357d1b9c85c8.png",
     "cart_type": "drawer",
-    "free_shipping_limit": "70",
+    "free_shipping_limit": "0",
     "show_lock_icon": false,
     "enable_accept_terms": false,
     "accept_terms_text": "",
