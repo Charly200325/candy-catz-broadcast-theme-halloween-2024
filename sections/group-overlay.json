@@ -16,11 +16,10 @@
       "blocks": {
         "cart-message": {
           "type": "cart-message",
-          "disabled": true,
           "settings": {
-            "cart_custom_message_text": "<p>Use coupon code <strong>WELCOME10</strong> for 10% off your first order.</p>",
+            "cart_custom_message_text": "<p>Utilisez le code<strong>APRIL15 </strong>et bénéficiez de<strong>15% de réduction </strong>sur votre commande.</p>",
             "cart_custom_message_color": "",
-            "pin_to_bottom": false
+            "pin_to_bottom": true
           }
         },
         "title": {
@@ -50,13 +49,6 @@
             "pin_to_bottom": false
           }
         },
-        "order-note": {
-          "type": "order-note",
-          "disabled": true,
-          "settings": {
-            "pin_to_bottom": false
-          }
-        },
         "checkout-buttons": {
           "type": "checkout-buttons",
           "settings": {
@@ -79,7 +71,6 @@
         "free_shipping_bj3XLP",
         "products",
         "upsell-products",
-        "order-note",
         "checkout-buttons",
         "shipping_estimate_UyqBfK"
       ],

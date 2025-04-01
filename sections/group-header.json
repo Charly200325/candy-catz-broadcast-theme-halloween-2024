@@ -17,7 +17,7 @@
         "text_Pm7cMa": {
           "type": "text",
           "settings": {
-            "text": "<p>Livraison Gratuite à partir de 70 € • Paiement 100% Sécurisé •  Retour Gratuit   </p>",
+            "text": "<p>• PROFITEZ DE LA<strong>LIVRAISON OFFERTE</strong>ET BÉNÉFICIEZ DE<strong>-15% AVEC LE CODE APRIL15 </strong>•  </p>",
             "target_url_enabled": false,
             "target_url": "",
             "target_referrer_enabled": false,
@@ -25,10 +25,22 @@
             "target_device_enabled": false,
             "target_device": "mobile"
           }
+        },
+        "countdown_UDpBPK": {
+          "type": "countdown",
+          "settings": {
+            "end_date": "2025-04-01",
+            "end_time": "11:59",
+            "period": "pm",
+            "end_message": "<p>Offre expirée</p>",
+            "hide_on_complete": true,
+            "text": "<p><strong>OFFRE UNIQUEMENT AUJOURD'HUI</strong></p>"
+          }
         }
       },
       "block_order": [
-        "text_Pm7cMa"
+        "text_Pm7cMa",
+        "countdown_UDpBPK"
       ],
       "settings": {
         "show_border": false,
