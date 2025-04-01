@@ -438,7 +438,8 @@
       ".boost-sd__fallback-button {display: none;}",
       ".boost-sd__fallback-product-image {height: 40vw; object-fit: cover; max-height: 450px; min-height: 250px;}",
       "@media only screen and (max-width: 750px) {.tab-content.tab-content-1.tabs__recently-viewed.current {display: none; }}",
-      ".footer__newsletter__wrapper {text-align: center;}"
+      ".footer__newsletter__wrapper {text-align: center;}",
+      ".jdgm-widget.jdgm-preview-badge:nth-of-type(2) {display: none !important;}"
     ]
   }
 }
