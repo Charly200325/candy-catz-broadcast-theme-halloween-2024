@@ -34,7 +34,7 @@
             "period": "pm",
             "end_message": "<p>Offre expirée</p>",
             "hide_on_complete": true,
-            "text": "<p><strong>OFFRE UNIQUEMENT AUJOURD'HUI</strong></p>"
+            "text": ""
           }
         }
       },
