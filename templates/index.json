@@ -557,6 +557,7 @@
       "block_order": [
         "text_G3xyTg"
       ],
+      "disabled": true,
       "settings": {
         "show_border": false,
         "layout": "marquee",
