@@ -86,13 +86,7 @@
     "enable_accept_terms": false,
     "accept_terms_text": "",
     "show_empty_cart_menu": true,
-    "empty_cart_products": [
-      "exclusivite-pastelmist™-bracelet-tresor-des-mers-blanc",
-      "exclusivite-pastelmist™-bracelet-tresor-des-mers-bleu",
-      "exclusivite-pastelmist™-collier-tresor-des-mers-blanc",
-      "exclusivite-pastelmist™-collier-tresor-des-mers-orange",
-      "exclusivite-pastelmist™-collier-tresor-des-mers-bleu"
-    ],
+    "empty_cart_products": [],
     "exclude_collections_strict": "",
     "exclude_collections_contain": "",
     "checkout_logo_image": "shopify://shop_images/Candy_Catz_Final-05.jpg",
