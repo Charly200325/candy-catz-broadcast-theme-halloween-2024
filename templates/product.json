@@ -90,11 +90,7 @@
           "type": "upsell",
           "settings": {
             "upsell_product": "exclusivite-pastelmist™-bracelet-tresor-des-mers-orange",
-            "upsell_product_list": [
-              "exclusivite-pastelmist™-bracelet-tresor-des-mers-bleu",
-              "exclusivite-pastelmist™-bracelet-tresor-des-mers-orange",
-              "exclusivite-pastelmist™-collier-tresor-des-mers-orange"
-            ],
+            "upsell_product_list": [],
             "bg_color": "",
             "padding_bottom": 16
           }
