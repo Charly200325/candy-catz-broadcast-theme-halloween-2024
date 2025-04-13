@@ -17,9 +17,9 @@
         "cart-message": {
           "type": "cart-message",
           "settings": {
-            "cart_custom_message_text": "<p>Utilisez le code <strong>APRIL15 </strong>et bénéficiez de <strong>15% de réduction </strong>sur votre commande.</p>",
+            "cart_custom_message_text": "<p><strong>Stock limité : forte demande</strong></p>",
             "cart_custom_message_color": "",
-            "pin_to_bottom": true
+            "pin_to_bottom": false
           }
         },
         "title": {
@@ -46,7 +46,7 @@
           "type": "upsell-products",
           "settings": {
             "upsell_auto_open": true,
-            "pin_to_bottom": false
+            "pin_to_bottom": true
           }
         },
         "checkout-buttons": {
@@ -61,7 +61,7 @@
           "type": "shipping-estimate",
           "disabled": true,
           "settings": {
-            "pin_to_bottom": false
+            "pin_to_bottom": true
           }
         }
       },
