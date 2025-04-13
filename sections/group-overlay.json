@@ -14,14 +14,6 @@
     "cart-drawer": {
       "type": "cart-drawer",
       "blocks": {
-        "cart-message": {
-          "type": "cart-message",
-          "settings": {
-            "cart_custom_message_text": "<p><strong>          Stock limité : forte demande</strong></p>",
-            "cart_custom_message_color": "",
-            "pin_to_bottom": false
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -59,7 +51,6 @@
         }
       },
       "block_order": [
-        "cart-message",
         "title",
         "free_shipping_bj3XLP",
         "products",
