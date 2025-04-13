@@ -546,7 +546,8 @@
         "cart_summary_heading": "Votre panier"
       },
       "general": {
-        "cart": "Panier"
+        "cart": "Panier",
+        "pay_now_button_label": "Compléter le paiement"
       },
       "shop_policies": {
         "refund_policy": "Politique de Retour et de Remboursement"
