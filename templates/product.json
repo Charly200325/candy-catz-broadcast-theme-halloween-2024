@@ -60,6 +60,13 @@
             "padding_bottom": 32
           }
         },
+        "essential_trust_badges_app_block_79nERE": {
+          "type": "shopify://apps/essential-trust-badges/blocks/app-block/0ff65b25-07e1-408e-950f-f54dd3d1751b",
+          "settings": {
+            "banner_display": "all",
+            "banner_id": ""
+          }
+        },
         "divider_D73gCW": {
           "type": "divider",
           "disabled": true,
@@ -103,6 +110,7 @@
         "popup_xcAGBi",
         "variants_jHMVhm",
         "buttons",
+        "essential_trust_badges_app_block_79nERE",
         "divider_D73gCW",
         "tabs",
         "upsell_JBJVDg"
@@ -110,7 +118,7 @@
       "custom_css": [],
       "settings": {
         "product_sticky_enable": true,
-        "image_layout": "grid-2",
+        "image_layout": "thumbnails",
         "image_size": "stretch",
         "show_cart_bar": false,
         "enable_zoom": true,
