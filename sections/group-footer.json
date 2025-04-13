@@ -33,7 +33,7 @@
             "show_name": false,
             "button_text": "S'ABONNER",
             "show_arrow": true,
-            "terms": true,
+            "terms": false,
             "button_type": "btn--black",
             "button_size": "",
             "button_style": "btn--solid",

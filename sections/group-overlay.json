@@ -17,7 +17,7 @@
         "cart-message": {
           "type": "cart-message",
           "settings": {
-            "cart_custom_message_text": "<p><strong>Stock limité : forte demande</strong></p>",
+            "cart_custom_message_text": "<p><strong>          Stock limité : forte demande</strong></p>",
             "cart_custom_message_color": "",
             "pin_to_bottom": false
           }
@@ -56,13 +56,6 @@
             "show_view_cart_button": false,
             "pin_to_bottom": true
           }
-        },
-        "shipping_estimate_UyqBfK": {
-          "type": "shipping-estimate",
-          "disabled": true,
-          "settings": {
-            "pin_to_bottom": true
-          }
         }
       },
       "block_order": [
@@ -71,8 +64,7 @@
         "free_shipping_bj3XLP",
         "products",
         "upsell-products",
-        "checkout-buttons",
-        "shipping_estimate_UyqBfK"
+        "checkout-buttons"
       ],
       "settings": {}
     },
