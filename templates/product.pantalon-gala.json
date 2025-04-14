@@ -1,0 +1,186 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_xhEqm6": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading_option": "none",
+            "text_size": 5,
+            "padding_bottom": 8
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "padding_bottom": 16
+          }
+        },
+        "popup_xcAGBi": {
+          "type": "popup",
+          "settings": {
+            "title": "Guide des tailles",
+            "text": "",
+            "page": "guide-des-tailles",
+            "icon_name": "icon-ruler",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "padding_bottom": 10
+          }
+        },
+        "variants_jHMVhm": {
+          "type": "variants",
+          "settings": {
+            "info_page": "",
+            "size_chart_style": "text",
+            "subscriptions_enable_selectors": false,
+            "padding_bottom": 16
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": false,
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "padding_bottom": 32
+          }
+        },
+        "essential_trust_badges_app_block_79nERE": {
+          "type": "shopify://apps/essential-trust-badges/blocks/app-block/0ff65b25-07e1-408e-950f-f54dd3d1751b",
+          "settings": {
+            "banner_display": "all",
+            "banner_id": ""
+          }
+        },
+        "divider_D73gCW": {
+          "type": "divider",
+          "disabled": true,
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
+        "tabs": {
+          "type": "tab_richtext",
+          "settings": {
+            "show_read_more": false,
+            "style": "accordions",
+            "title_1": "Livraison & Retours",
+            "raw_content_1": "<p><strong>Livraison</strong><br/><br/>Votre commande sera traitée et expédiée sous <strong>1 à 2 jours ouvrables</strong>.</p><ul><li><strong>France (livraison standard)</strong> : Gratuite (délai de 5 jours ouvrables)</li><li><strong>Europe (livraison standard)</strong> : Gratuite (délai de 5 à 7 jours ouvrables)</li><li><strong>International (livraison standard)</strong> : 3,99 € (jusqu'à 12 jours ouvrables)</li></ul><p></p><p><strong>Retours</strong></p><p>Vous n'êtes pas sûr(e) que votre article vous convienne ? Profitez de retours gratuits, simples et rapides ! Vous disposez de <strong>30 jours</strong> pour retourner vos articles dans leur emballage d'origine, non portés, non lavés et avec toutes les étiquettes et doublures attachées.<br/>Consultez notre politique de retours pour plus d’informations.</p>",
+            "title_2": "",
+            "raw_content_2": "",
+            "title_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "raw_content_5": "",
+            "padding_bottom": 0
+          }
+        },
+        "upsell_JBJVDg": {
+          "type": "upsell",
+          "settings": {
+            "upsell_product": "exclusivite-pastelmist™-bracelet-tresor-des-mers-orange",
+            "upsell_product_list": [],
+            "bg_color": "",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_xhEqm6",
+        "title",
+        "price",
+        "popup_xcAGBi",
+        "variants_jHMVhm",
+        "buttons",
+        "essential_trust_badges_app_block_79nERE",
+        "divider_D73gCW",
+        "tabs",
+        "upsell_JBJVDg"
+      ],
+      "custom_css": [],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "thumbnails",
+        "image_size": "stretch",
+        "show_cart_bar": false,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_style": "thumbs",
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "related": {
+      "type": "related",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "Recommandé pour vous",
+            "limit": 6
+          }
+        },
+        "recent_AMxW4H": {
+          "type": "recent",
+          "settings": {
+            "product_recently_heading": "Récemment consultés",
+            "product_recently_limit": 6
+          }
+        }
+      },
+      "block_order": [
+        "related",
+        "recent_AMxW4H"
+      ],
+      "custom_css": [],
+      "settings": {
+        "enable_tabs": false,
+        "heading_alignment": "text-center",
+        "heading_size": 4,
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "171059549045b3a026": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_GL9gK9": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_GL9gK9"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related",
+    "171059549045b3a026"
+  ]
+}
