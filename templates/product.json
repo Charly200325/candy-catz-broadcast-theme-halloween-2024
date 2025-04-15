@@ -211,15 +211,6 @@
     },
     "171059549045b3a026": {
       "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_GL9gK9": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_GL9gK9"
-      ],
       "settings": {
         "include_margins": false
       }
@@ -284,6 +275,7 @@
         "collection_4PL9be",
         "collection_6kraBg"
       ],
+      "disabled": true,
       "custom_css": [
         ".grid {gap: 3px;}",
         ".collection-item__info {display: none;}"
@@ -304,7 +296,7 @@
         "layout_mobile": "slider",
         "bg_color": "",
         "color": "",
-        "padding_top": 0,
+        "padding_top": 16,
         "padding_bottom": 10
       }
     },
@@ -333,69 +325,19 @@
         "padding_bottom": 50
       }
     },
-    "section_tab_collections_eUAfjT": {
-      "type": "section-tab-collections",
+    "174474763778098a36": {
+      "type": "apps",
       "blocks": {
-        "collection_ap49tj": {
-          "type": "collection",
-          "settings": {
-            "title": "First collection",
-            "featured_collection": "all",
-            "show_image": true,
-            "align_with_product_images": false,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "description": "",
-            "color": "#ffffff",
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false
-          }
-        },
-        "collection_3bzNrG": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "title": "Second collection",
-            "featured_collection": "",
-            "show_image": true,
-            "align_with_product_images": false,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "description": "",
-            "color": "#ffffff",
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false
-          }
+        "judge_me_reviews_review_widget_WQ7pLG": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         }
       },
       "block_order": [
-        "collection_ap49tj",
-        "collection_3bzNrG"
+        "judge_me_reviews_review_widget_WQ7pLG"
       ],
-      "disabled": true,
-      "name": "Tab collections",
       "settings": {
-        "title": "",
-        "text": "",
-        "layout": "stacked",
-        "show_product_count": true,
-        "layout_desktop": "grid",
-        "layout_mobile": "2",
-        "product_limit": 6,
-        "grid": 4,
-        "rows": 3,
-        "bg_color": "",
-        "color": "",
-        "padding_top": 32,
-        "padding_bottom": 32
+        "include_margins": false
       }
     }
   },
@@ -406,6 +348,6 @@
     "171059549045b3a026",
     "section_collections_list_76zBR8",
     "section_collection_ikmjFz",
-    "section_tab_collections_eUAfjT"
+    "174474763778098a36"
   ]
 }
