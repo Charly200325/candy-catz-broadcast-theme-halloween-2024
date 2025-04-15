@@ -34,7 +34,7 @@
           "type": "code",
           "disabled": true,
           "settings": {
-            "code": "",
+            "code": "<img src=\"LIEN DE TON IMAGE\" alt=\"Paiement sécurisé\"\nstyle=\"display: block;\nmargin: auto;\">",
             "padding_bottom": 16
           }
         },
@@ -337,7 +337,7 @@
         "mobile_height": "screen-height-three-quarters--mobile",
         "width": "wrapper--full",
         "overlay_opacity": 0,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "show_overlay_text": false,
         "title": "",
         "heading_size": 8,
@@ -345,7 +345,7 @@
         "text_size": 3,
         "flex_align": "align--middle-center",
         "bg_color": "",
-        "color": "#FFFFFF",
+        "color": "#ffffff",
         "link_text": "",
         "link": "",
         "button_type": "btn--primary",
