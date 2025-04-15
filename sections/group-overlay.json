@@ -58,7 +58,8 @@
         "upsell-products"
       ],
       "custom_css": [
-        ".payment-badges {margin-top: 0 !important; padding-top: 0 !important;}"
+        "checkout-buttons {position: relative;}",
+        "#payment-badges {position: relative; top: -10px; /* Ajuste cette valeur pour décaler les badges vers le bas */ margin-top: 0 !important; padding-top: 0 !important;}"
       ],
       "settings": {}
     },
