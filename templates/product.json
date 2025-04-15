@@ -312,7 +312,7 @@
         "button_style": "btn--solid",
         "show_arrow": false,
         "featured_collection": "all",
-        "layout_desktop": "grid",
+        "layout_desktop": "slider",
         "grid": 4,
         "rows": 3,
         "width": "wrapper",
