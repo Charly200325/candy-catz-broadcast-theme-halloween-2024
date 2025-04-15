@@ -192,7 +192,7 @@
         "mobile_height": "screen-height-three-quarters--mobile",
         "width": "wrapper--full",
         "overlay_opacity": 0,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "show_overlay_text": false,
         "title": "",
         "heading_size": 8,
@@ -200,7 +200,7 @@
         "text_size": 3,
         "flex_align": "align--middle-center",
         "bg_color": "",
-        "color": "#FFFFFF",
+        "color": "#ffffff",
         "link_text": "",
         "link": "",
         "button_type": "btn--black",
@@ -212,14 +212,6 @@
     "section_collections_list_76zBR8": {
       "type": "section-collections-list",
       "blocks": {
-        "collection_4PL9be": {
-          "type": "collection",
-          "settings": {
-            "collection": "accesoires",
-            "collection_image": "shopify://shop_images/Copie_de_Copie_de_Copie_de_ROBES.png",
-            "title": ""
-          }
-        },
         "collection_BybhEL": {
           "type": "collection",
           "settings": {
@@ -244,6 +236,15 @@
             "title": ""
           }
         },
+        "collection_4PL9be": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "accesoires",
+            "collection_image": "shopify://shop_images/Copie_de_Sans_titre_4_1.png",
+            "title": ""
+          }
+        },
         "collection_BVJ9Pj": {
           "type": "collection",
           "settings": {
@@ -254,12 +255,13 @@
         }
       },
       "block_order": [
-        "collection_4PL9be",
         "collection_BybhEL",
         "collection_XFCwje",
         "collection_WjB9M4",
+        "collection_4PL9be",
         "collection_BVJ9Pj"
       ],
+      "disabled": true,
       "name": "Collection list",
       "settings": {
         "title": "",
@@ -273,7 +275,7 @@
         "layout": "grid",
         "aspect_ratio": 1,
         "grid": 4,
-        "layout_mobile": "slider",
+        "layout_mobile": "2",
         "bg_color": "",
         "color": "",
         "padding_top": 32,
