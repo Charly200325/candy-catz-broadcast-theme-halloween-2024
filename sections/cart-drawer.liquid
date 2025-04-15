@@ -448,14 +448,14 @@
                   {%- when 'shipping-estimate' -%}
                     {%- render 'cart-block-shipping-calculator', block: block -%}
 
-                  {%- when 'checkout-buttons' -%}
-                    {{ checkout_buttons }}
-<div id="payment-badges" style="text-align: center; margin-top: 0;">
-  <img src="https://cdn.shopify.com/s/files/1/0941/0258/5685/files/IMG_4105.jpg?v=1744751831"
-       alt="Paiement sécurisé"
-       style="display: block; margin: auto; max-width: 300px; width: 100%; height: auto;">
-</div>
+                {%- when 'checkout-buttons' -%}
+  {{ checkout_buttons }}
 
+  <div id="payment-badges" style="text-align: center; margin-top: 0;">
+    <img src="https://cdn.shopify.com/s/files/1/0941/0258/5685/files/IMG_4105.jpg?v=1744751831"
+         alt="Paiement sécurisé"
+         style="display: block; margin: auto; max-width: 300px; width: 100%; height: auto;">
+  </div>
 
                 {%- endcase -%}
               </div>
