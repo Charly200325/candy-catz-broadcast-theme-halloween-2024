@@ -93,7 +93,7 @@
         "height": "image-height",
         "width": "wrapper--full",
         "image_1": "shopify://shop_images/Copie_de_Copie_de_NEW_ARRIVALS_1.png",
-        "link": "",
+        "link": "shopify://collections/all",
         "mobile_height": "image-height--mobile",
         "mobile_image": "shopify://shop_images/Copie_de_NEW.png",
         "flex_align_desktop": "align--bottom-center-desktop",
