@@ -65,7 +65,14 @@
             "show_quantity": false,
             "show_payment_button": true,
             "show_gift_card_recipient": false,
-            "padding_bottom": 32
+            "padding_bottom": 0
+          }
+        },
+        "code_aAyDUt": {
+          "type": "code",
+          "settings": {
+            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0941/0258/5685/files/IMG_4105.jpg?v=1744751831\"\n     alt=\"Paiement sécurisé\"\n     style=\"display: block; margin: auto; max-width: 300px; width: 100%; height: auto;\">",
+            "padding_bottom": 16
           }
         },
         "essential_trust_badges_app_block_79nERE": {
@@ -119,6 +126,7 @@
         "popup_xcAGBi",
         "variants_jHMVhm",
         "buttons",
+        "code_aAyDUt",
         "essential_trust_badges_app_block_79nERE",
         "divider_D73gCW",
         "tabs",
@@ -182,7 +190,7 @@
         "mobile_height": "screen-height-three-quarters--mobile",
         "width": "wrapper--full",
         "overlay_opacity": 0,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "show_overlay_text": false,
         "title": "",
         "heading_size": 8,
@@ -190,13 +198,38 @@
         "text_size": 3,
         "flex_align": "align--middle-center",
         "bg_color": "",
-        "color": "#FFFFFF",
+        "color": "#ffffff",
         "link_text": "",
         "link": "",
         "button_type": "btn--primary",
         "button_size": "",
         "button_style": "btn--solid",
         "show_arrow": false
+      }
+    },
+    "section_collection_brFpqn": {
+      "type": "section-collection",
+      "name": "Featured collection",
+      "settings": {
+        "heading": "Best Sellers",
+        "description": "",
+        "layout": "inline",
+        "link_text": "Shop Now",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "featured_collection": "all",
+        "layout_desktop": "grid",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "slider",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "171059549045b3a026": {
@@ -228,31 +261,6 @@
         "bg_color": "",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "section_collection_brFpqn": {
-      "type": "section-collection",
-      "name": "Featured collection",
-      "settings": {
-        "heading": "Best Sellers",
-        "description": "",
-        "layout": "inline",
-        "link_text": "Shop Now",
-        "link_url": "",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "featured_collection": "all",
-        "layout_desktop": "grid",
-        "grid": 4,
-        "rows": 3,
-        "width": "wrapper",
-        "layout_mobile": "slider",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
       }
     }
   },
