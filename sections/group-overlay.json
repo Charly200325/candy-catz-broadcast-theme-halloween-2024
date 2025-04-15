@@ -34,18 +34,18 @@
             "pin_to_bottom": false
           }
         },
-        "upsell-products": {
-          "type": "upsell-products",
-          "settings": {
-            "upsell_auto_open": true,
-            "pin_to_bottom": true
-          }
-        },
         "checkout-buttons": {
           "type": "checkout-buttons",
           "settings": {
             "enable_additional_buttons": false,
             "show_view_cart_button": false,
+            "pin_to_bottom": true
+          }
+        },
+        "upsell-products": {
+          "type": "upsell-products",
+          "settings": {
+            "upsell_auto_open": true,
             "pin_to_bottom": true
           }
         }
@@ -54,8 +54,8 @@
         "title",
         "free_shipping_bj3XLP",
         "products",
-        "upsell-products",
-        "checkout-buttons"
+        "checkout-buttons",
+        "upsell-products"
       ],
       "settings": {}
     },
