@@ -305,6 +305,64 @@
     }
   {% endstyle %}
 {% endif %}
+                  <div id="reserved-timer" style="background-color: #fff3cd; padding: 12px; border: 1px solid #ffeeba; border-radius: 8px; margin-bottom: 20px; text-align: center; font-weight: 600; font-size: 16px;">
+  🕒 Panier réservé pendant <span id="countdown">15:00</span><br>
+  <span style="font-size: 14px; font-weight: 400;">en raison d'une forte demande</span>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const TIMER_DURATION = 15 * 60; // 15 minutes en secondes
+    const storageKey = "cart_timer_start";
+    let countdownInterval;
+
+    function setStartTime() {
+      const now = Date.now();
+      localStorage.setItem(storageKey, now);
+      return now;
+    }
+
+    function getStartTime() {
+      return parseInt(localStorage.getItem(storageKey) || setStartTime());
+    }
+
+    function updateCountdown() {
+      const startTime = getStartTime();
+      const elapsed = Math.floor((Date.now() - startTime) / 1000);
+      const remaining = Math.max(0, TIMER_DURATION - elapsed);
+
+      const minutes = Math.floor(remaining / 60).toString().padStart(2, "0");
+      const seconds = (remaining % 60).toString().padStart(2, "0");
+      document.getElementById("countdown").textContent = `${minutes}:${seconds}`;
+
+      if (remaining === 0) {
+        clearInterval(countdownInterval);
+        localStorage.removeItem(storageKey);
+        document.getElementById("reserved-timer").style.display = "none";
+      }
+    }
+
+    // Démarre ou redémarre le timer
+    function startTimer() {
+      clearInterval(countdownInterval);
+      setStartTime();
+      updateCountdown();
+      countdownInterval = setInterval(updateCountdown, 1000);
+    }
+
+    // Lancer le timer au chargement
+    updateCountdown();
+    countdownInterval = setInterval(updateCountdown, 1000);
+
+    // Réinitialiser le timer si le panier change
+    const cartForm = document.querySelector('form[action="/cart"]');
+    if (cartForm) {
+      cartForm.addEventListener('change', startTimer); // Quantité modifiée
+      cartForm.addEventListener('submit', startTimer); // Produit supprimé
+    }
+  });
+</script>
+
 
 {%- if show_message -%}
   {%- liquid
