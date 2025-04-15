@@ -112,12 +112,12 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-box",
-            "icon_size": 40,
+            "icon_size": 65,
             "icon_color": "#000000",
             "image": "shopify://shop_images/Shipping_Icon_0cd5e4e0-a2ad-4efd-91b1-30e58faec6f7.webp",
             "title": "Livraison gratuite",
             "heading_size": 2,
-            "text": "<p>Pour les commandes de 75 € et plus</p>",
+            "text": "<p>Sans minimum d’achat</p>",
             "text_size": 1
           }
         },
