@@ -45,7 +45,11 @@
     },
     "header": {
       "type": "header",
-      "custom_css": [],
+      "custom_css": [
+        ".navlink.navlink--child span {color: #d980ef;}",
+        ".grandparent .navlink--child {margin-bottom: 3px;}",
+        ".dropdown__family {padding: 5px 0 15px 10px;}"
+      ],
       "settings": {
         "header_sticky": false,
         "header_style": "logo_beside",
