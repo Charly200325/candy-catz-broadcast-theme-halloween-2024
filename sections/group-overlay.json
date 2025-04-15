@@ -57,6 +57,9 @@
         "checkout-buttons",
         "upsell-products"
       ],
+      "custom_css": [
+        ".payment-badges {margin-top: 0 !important; padding-top: 0 !important;}"
+      ],
       "settings": {}
     },
     "cookie": {
