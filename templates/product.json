@@ -275,7 +275,7 @@
         "layout": "grid",
         "aspect_ratio": 1,
         "grid": 4,
-        "layout_mobile": "2",
+        "layout_mobile": "slider",
         "bg_color": "",
         "color": "",
         "padding_top": 32,
@@ -296,6 +296,31 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "section_collection_ikmjFz": {
+      "type": "section-collection",
+      "name": "Featured collection",
+      "settings": {
+        "heading": "Best Sellers",
+        "description": "",
+        "layout": "inline",
+        "link_text": "Shop Now",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "featured_collection": "all",
+        "layout_desktop": "grid",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "slider",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
@@ -303,6 +328,7 @@
     "related",
     "section_video_kNNDab",
     "section_collections_list_76zBR8",
-    "171059549045b3a026"
+    "171059549045b3a026",
+    "section_collection_ikmjFz"
   ]
 }
