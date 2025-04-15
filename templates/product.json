@@ -30,14 +30,6 @@
             "padding_bottom": 16
           }
         },
-        "code_UVMa3f": {
-          "type": "code",
-          "disabled": true,
-          "settings": {
-            "code": "<img src=\"LIEN DE TON IMAGE\" alt=\"Paiement sécurisé\"\nstyle=\"display: block;\nmargin: auto;\">",
-            "padding_bottom": 16
-          }
-        },
         "popup_xcAGBi": {
           "type": "popup",
           "disabled": true,
@@ -67,6 +59,13 @@
             "show_payment_button": true,
             "show_gift_card_recipient": false,
             "padding_bottom": 32
+          }
+        },
+        "code_UVMa3f": {
+          "type": "code",
+          "settings": {
+            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0941/0258/5685/files/IMG_4105.png?v=1744751417\"\n     alt=\"Paiement sécurisé\"\n     style=\"display: block; margin: auto; max-width: 300px; width: 100%; height: auto;\">",
+            "padding_bottom": 0
           }
         },
         "code_yTykmE": {
@@ -124,10 +123,10 @@
         "judge_me_reviews_preview_badge_xhEqm6",
         "title",
         "price",
-        "code_UVMa3f",
         "popup_xcAGBi",
         "variants_jHMVhm",
         "buttons",
+        "code_UVMa3f",
         "code_yTykmE",
         "essential_trust_badges_app_block_79nERE",
         "divider_D73gCW",
