@@ -231,7 +231,7 @@
           "type": "collection",
           "settings": {
             "collection": "robes",
-            "collection_image": "shopify://shop_images/Copie_de_Sans_titre_5.png",
+            "collection_image": "shopify://shop_images/IMG_4099.png",
             "title": ""
           }
         },
@@ -247,7 +247,7 @@
           "type": "collection",
           "settings": {
             "collection": "bas",
-            "collection_image": "shopify://shop_images/Copie_de_Sans_titre_7.png",
+            "collection_image": "shopify://shop_images/IMG_4098.png",
             "title": ""
           }
         },
@@ -344,9 +344,9 @@
             "show_image": true,
             "align_with_product_images": false,
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "description": "",
-            "color": "#fff",
+            "color": "#ffffff",
             "link_text": "View products",
             "link": "",
             "button_type": "btn--white",
@@ -364,9 +364,9 @@
             "show_image": true,
             "align_with_product_images": false,
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "description": "",
-            "color": "#fff",
+            "color": "#ffffff",
             "link_text": "View products",
             "link": "",
             "button_type": "btn--white",
