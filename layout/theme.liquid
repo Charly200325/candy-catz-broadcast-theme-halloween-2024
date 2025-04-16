@@ -589,23 +589,7 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
   <!-- And above this comment line ================================================== -->
 {% render 'hulkappsWishlistPopup' %}
   {% render 'gw-custom' %}
-  <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-
-    if (isIOS) {
-      const observer = new MutationObserver(() => {
-        const shopPayBtn = document.querySelector('.shopify-payment-button__button--shop-pay');
-        if (shopPayBtn) {
-          shopPayBtn.style.display = 'none';
-        }
-      });
-
-      observer.observe(document.body, { childList: true, subtree: true });
-    }
-  });
-</script>
-
+  
   
 </body>
 </html>
