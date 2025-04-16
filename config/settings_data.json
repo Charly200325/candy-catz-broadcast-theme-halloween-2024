@@ -435,7 +435,7 @@
       ".jdgm-widget.jdgm-preview-badge:nth-of-type(2) {display: none !important;}",
       ".product-form button[type=\"submit\"] {background-color: #000 !important; color: #fff !important; border: none !important;}",
       ".product-form button[type=\"submit\"]:hover {background-color: #222 !important;}",
-      "@supports (-webkit-touch-callout: none) {.shopify-payment-button__button.shopify-payment-button__button--unbranded + .shopify-payment-button__button--shop-pay {display: none !important; }}"
+      "@supports (-webkit-touch-callout: none) {.shopify-payment-button__button--shop-pay {display: none !important; }}"
     ]
   }
 }
