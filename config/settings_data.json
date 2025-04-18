@@ -79,7 +79,7 @@
     "show_gift_card_recipient": false,
     "color_swatches": false,
     "swatch_style": "circle",
-    "favicon": "shopify://shop_images/PASTELMIST_1_1__enhanced_0581bb77-85df-4ae3-ad67-71a65e95a58c.png",
+    "favicon": "shopify://shop_images/favicon-32x32.png",
     "cart_type": "drawer",
     "free_shipping_limit": "0",
     "show_lock_icon": false,
