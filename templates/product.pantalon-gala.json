@@ -33,7 +33,7 @@
         "code_CV7tNd": {
           "type": "code",
           "settings": {
-            "code": "<div id=\"stock-wrapper\" style=\"margin-bottom: 20px;\">\n  <div id=\"stock-text\" style=\"font-size: 16px; font-weight: 600; margin-bottom: 6px;\">\n    Stock restant : <span id=\"stock-count\">13</span>\n  </div>\n  <div style=\"width: 100%; height: 3px; background-color: #e0e0e0; border-radius: 2px; overflow: hidden;\">\n    <div id=\"stock-bar\" style=\"height: 100%; background-color: #000; border-radius: 2px; width: 100%; transition: width 1s ease-in-out;\"></div>\n  </div>\n</div>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    const MAX_STOCK = 14; // Stock initial réel\n    const DISPLAY_START_STOCK = 13; // Ce que l'utilisateur voit à l'arrivée\n    const RESET_INTERVAL = 24 * 60 * 60 * 1000; // 24h\n\n    // Étapes de diminution à partir de 13\n    const steps = [\n      { time: 0, value: 13 },\n      { time: 45000, value: 12 },\n      { time: 75000, value: 11 },\n      { time: 375000, value: 10 },\n      { time: 2175000, value: 9 },\n      { time: 5775000, value: 8 },\n      { time: 9375000, value: 7 },\n      { time: 12975000, value: 6 },\n      { time: 16575000, value: 5 },\n      { time: 20175000, value: 4 },\n      { time: 23775000, value: 3 },\n      { time: 27375000, value: 2 },\n      { time: 30975000, value: 1 }\n    ];\n\n    function getCurrentStock(elapsed) {\n      for (let i = steps.length - 1; i >= 0; i--) {\n        if (elapsed >= steps[i].time) {\n          return steps[i].value;\n        }\n      }\n      return DISPLAY_START_STOCK;\n    }\n\n    function updateStockDisplay(stock) {\n      const countEl = document.getElementById(\"stock-count\");\n      const barEl = document.getElementById(\"stock-bar\");\n\n      countEl.textContent = stock;\n\n      const barWidth = (stock / MAX_STOCK) * 100;\n      barEl.style.width = barWidth + \"%\";\n\n      // Barre passe en rouge à 3 ou moins\n      if (stock <= 3) {\n        barEl.style.backgroundColor = \"#e53935\";\n      } else {\n        barEl.style.backgroundColor = \"#000\";\n      }\n    }\n\n    function startTimer() {\n      const productId = window.location.pathname;\n      const storageKey = \"stock_timer_start_\" + productId;\n\n      const now = Date.now();\n      let startTime = localStorage.getItem(storageKey);\n\n      if (!startTime || isNaN(parseInt(startTime))) {\n        startTime = now;\n        localStorage.setItem(storageKey, startTime.toString());\n      } else {\n        startTime = parseInt(startTime);\n      }\n\n      // Reset après 24h\n      if ((now - startTime) > RESET_INTERVAL) {\n        startTime = now;\n        localStorage.setItem(storageKey, startTime.toString());\n      }\n\n      function refresh() {\n        const elapsed = Date.now() - startTime;\n        const stock = getCurrentStock(elapsed);\n        updateStockDisplay(stock);\n      }\n\n      refresh();\n      setInterval(refresh, 1000);\n    }\n\n    startTimer();\n  });\n</script>",
+            "code": "<div id=\"stock-wrapper\" style=\"margin-bottom: 20px;\">\n  <div id=\"stock-text\" style=\"font-size: 16px; font-weight: 600; margin-bottom: 6px;\">\n    Stock restant : <span id=\"stock-count\">13</span>\n  </div>\n  <div style=\"width: 100%; height: 3px; background-color: #e0e0e0; border-radius: 2px; overflow: hidden;\">\n    <div id=\"stock-bar\" style=\"height: 100%; background-color: #000; border-radius: 2px; width: 100%; transition: width 1s ease-in-out;\"></div>\n  </div>\n</div>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    const MAX_STOCK = 14;\n    const DISPLAY_START_STOCK = 13;\n    const FULL_CYCLE = 48 * 60 * 60 * 1000; // 48h\n\n    // Étapes jusqu'à 2\n    const steps = [\n      { time: 0, value: 13 },\n      { time: 45000, value: 12 },\n      { time: 75000, value: 11 },\n      { time: 375000, value: 10 },\n      { time: 2175000, value: 9 },\n      { time: 5775000, value: 8 },\n      { time: 9375000, value: 7 },\n      { time: 12975000, value: 6 },\n      { time: 16575000, value: 5 },\n      { time: 20175000, value: 4 },\n      { time: 23775000, value: 3 },\n      { time: 27375000, value: 2 }\n    ];\n\n    const PAUSE_AT_2 = 24 * 60 * 60 * 1000; // 24h\n    const PAUSE_AT_1 = 24 * 60 * 60 * 1000; // 24h\n\n    const timeAt2 = steps[steps.length - 1].time;\n    const timeAt1 = timeAt2 + PAUSE_AT_2;\n    const resetTime = timeAt1 + PAUSE_AT_1;\n\n    function getCurrentStock(elapsed) {\n      if (elapsed < timeAt2) {\n        for (let i = steps.length - 1; i >= 0; i--) {\n          if (elapsed >= steps[i].time) {\n            return steps[i].value;\n          }\n        }\n      } else if (elapsed >= timeAt2 && elapsed < timeAt1) {\n        return 2;\n      } else if (elapsed >= timeAt1 && elapsed < resetTime) {\n        return 1;\n      } else {\n        return DISPLAY_START_STOCK;\n      }\n    }\n\n    function updateStockDisplay(stock) {\n      const countEl = document.getElementById(\"stock-count\");\n      const barEl = document.getElementById(\"stock-bar\");\n\n      countEl.textContent = stock;\n\n      const barWidth = (stock / MAX_STOCK) * 100;\n      barEl.style.width = barWidth + \"%\";\n\n      if (stock <= 3) {\n        barEl.style.backgroundColor = \"#e53935\";\n      } else {\n        barEl.style.backgroundColor = \"#000\";\n      }\n    }\n\n    function startTimer() {\n      const productId = window.location.pathname;\n      const storageKey = \"stock_timer_start_\" + productId;\n\n      const now = Date.now();\n      let startTime = localStorage.getItem(storageKey);\n\n      if (!startTime || isNaN(parseInt(startTime))) {\n        startTime = now;\n        localStorage.setItem(storageKey, startTime.toString());\n      } else {\n        startTime = parseInt(startTime);\n      }\n\n      if ((now - startTime) > resetTime) {\n        startTime = now;\n        localStorage.setItem(storageKey, startTime.toString());\n      }\n\n      function refresh() {\n        const elapsed = Date.now() - startTime;\n        const stock = getCurrentStock(elapsed);\n        updateStockDisplay(stock);\n      }\n\n      refresh();\n      setInterval(refresh, 1000);\n    }\n\n    startTimer();\n  });\n</script>",
             "padding_bottom": 0
           }
         },
@@ -73,13 +73,6 @@
           "settings": {
             "code": "<img src=\"https://cdn.shopify.com/s/files/1/0941/0258/5685/files/IMG_4105.jpg?v=1744751831\"\n     alt=\"Paiement sécurisé\"\n     style=\"display: block; margin: auto; max-width: 300px; width: 100%; height: auto;\">",
             "padding_bottom": 16
-          }
-        },
-        "essential_trust_badges_app_block_79nERE": {
-          "type": "shopify://apps/essential-trust-badges/blocks/app-block/0ff65b25-07e1-408e-950f-f54dd3d1751b",
-          "settings": {
-            "banner_display": "all",
-            "banner_id": ""
           }
         },
         "divider_D73gCW": {
@@ -127,7 +120,6 @@
         "variants_jHMVhm",
         "buttons",
         "code_aAyDUt",
-        "essential_trust_badges_app_block_79nERE",
         "divider_D73gCW",
         "tabs",
         "upsell_JBJVDg"
@@ -181,7 +173,6 @@
     },
     "section_video_YwXf6H": {
       "type": "section-video",
-      "name": "Video",
       "settings": {
         "video": "shopify://files/videos/002837f74ae1465faecadf39fe40976d.HD-720p-4.5Mbps-31175822.mp4",
         "show_video_popup": false,
@@ -209,7 +200,6 @@
     },
     "section_collection_brFpqn": {
       "type": "section-collection",
-      "name": "Featured collection",
       "settings": {
         "heading": "Best Sellers",
         "description": "",
@@ -250,7 +240,6 @@
     "section_product_A3WwXU": {
       "type": "section-product",
       "disabled": true,
-      "name": "Featured product",
       "settings": {
         "layout": "",
         "product": "exclusivite-pastelmist™-robe-sirena-bleu-vert",
