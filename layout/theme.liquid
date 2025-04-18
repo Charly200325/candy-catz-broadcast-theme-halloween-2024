@@ -21,6 +21,27 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
   ttq.page();
 }(window, document, 'ttq');
 </script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.body.addEventListener('click', function (e) {
+      if (e.target.matches('[name="add"]') || e.target.closest('[name="add"]')) {
+        ttq.track('AddToCart');
+      }
+    });
+  });
+</script>
+{% if template == 'product' %}
+  <script>
+    ttq.track('ViewContent', {
+      content_id: '{{ product.id }}',
+      content_name: '{{ product.title | escape }}',
+      content_type: 'product',
+      value: {{ product.price | money_without_currency | replace: ',', '.' }},
+      currency: '{{ shop.currency }}'
+    });
+  </script>
+{% endif %}
+
 <!-- TikTok Pixel Code End -->
 <meta name="p:domain_verify" content="f4a38120eba084a65d965c59c140f900"/>  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
