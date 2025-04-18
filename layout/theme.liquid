@@ -24,8 +24,20 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
   <script>
   document.addEventListener('DOMContentLoaded', function () {
     document.body.addEventListener('click', function (e) {
-      if (e.target.matches('[name="add"]') || e.target.closest('[name="add"]')) {
-        ttq.track('AddToCart');
+      if (
+  e.target.closest('form[action^="/cart/add"] [type="submit"]') ||
+  e.target.closest('button[name="add"]') ||
+  e.target.closest('.product__add-to-cart') // classe souvent utilisée dans Broadcast
+) {
+  const productId = document.querySelector('[name="id"]')?.value;
+
+  ttq.track('AddToCart', {
+    content_id: productId,
+    content_type: 'product',
+    currency: '{{ shop.currency }}'
+  });
+}
+
       }
     });
   });
