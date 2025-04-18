@@ -609,7 +609,22 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
   <!-- And above this comment line ================================================== -->
 {% render 'hulkappsWishlistPopup' %}
   {% render 'gw-custom' %}
-  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (window.location.pathname.includes("/thank_you")) {
+      // Petit délai pour s'assurer que ttq est chargé
+      setTimeout(function () {
+        ttq.track('CompletePayment', {
+          value: {{ checkout.total_price | money_without_currency | default: 0 }},
+          currency: "{{ checkout.currency | default: 'EUR' }}",
+          content_type: "product",
+          content_id: "{{ checkout.line_items | map: 'product_id' | join: ',' }}"
+        });
+      }, 1000);
+    }
+  });
+</script>
+
   
 </body>
 </html>
