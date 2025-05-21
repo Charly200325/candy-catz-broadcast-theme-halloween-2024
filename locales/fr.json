@@ -8,135 +8,6 @@
  * ------------------------------------------------------------
  */
 {
-  "general": {
-    "ie11_support_message": "Ce site Web a des limites de navigation. Il est recommandé d'utiliser un navigateur comme Edge, Chrome, Safari ou Firefox.",
-    "swatches": {
-      "color": "Couleur"
-    },
-    "siblings": {
-      "label": "Couleur"
-    },
-    "products_with_count": {
-      "one": "{{ count }} produit",
-      "other": "{{ count }} des produits"
-    },
-    "size_chart": {
-      "title": "Tableau des tailles",
-      "size": "Taille"
-    },
-    "404": {
-      "title": "404 - Page non trouvée",
-      "subtext_html": "Cette page n'est pas disponible."
-    },
-    "meta": {
-      "tags": "Mots clés \"{{ tags }}\"",
-      "page": "Page {{ page }}"
-    },
-    "breadcrumbs": {
-      "home": "Accueil",
-      "products": "Produits",
-      "go_back": "Retourner"
-    },
-    "forms": {
-      "post_error": "Désolé, il semble y avoir un problème. Tentez de corriger les éléments suivants et soumettez le formulaire à nouveau:"
-    },
-    "newsletter_form": {
-      "newsletter_email": "Email",
-      "name": "Prénom",
-      "submit": "S'inscrire",
-      "placeholder": "Adresse e-mail",
-      "thank_you": "Merci ! Vous recevrez bientôt un email de notre part. Pensez à vérifier vos spams.",
-      "thank_you_with_code_html": "Merci pour votre inscription! Vous pouvez utiliser ce code <span>Remise de 10 %</span> pour votre prochaine commande !",
-      "error_message": "Ce client est déjà inscrit !"
-    },
-    "search": {
-      "articles": "Articles",
-      "no_results": "Aucun résultat trouvé pour « {{ terms }} ». Vérifiez l'orthographe ou utilisez un autre mot ou une autre expression.",
-      "results_with_count": {
-        "one": "{{ count }} résultat",
-        "other": "{{ count }} résultats",
-        "many": "{{ count }} résultats"
-      },
-      "title": "Résultats de la recherche",
-      "page": "Page",
-      "products": "Produits",
-      "search_for": "Rechercher « {{ terms }} »",
-      "reset": "Réinitialiser",
-      "clear": "Éclaircir",
-      "results_with_count_and_term": {
-        "one": "{{ count }} résultat trouvé pour « {{ terms }} »",
-        "other": "{{ count }} résultats trouvés pour « {{ terms }} »",
-        "many": "{{ count }} résultats trouvés pour « {{ terms }} »"
-      },
-      "results_pages_with_count": {
-        "one": "Page {{ count }}",
-        "other": "Pages {{ count }}",
-        "many": "Pages {{ count }}"
-      },
-      "results_suggestions_with_count": {
-        "one": "{{ count }} suggestion",
-        "other": "{{ count }} suggestions",
-        "many": "{{ count }} suggestions"
-      },
-      "results_products_with_count": {
-        "one": "Produit {{ count }}",
-        "other": "Produits {{ count }}",
-        "many": "Produits {{ count }}"
-      },
-      "suggestions": "Suggestions",
-      "pages": "Pages",
-      "placeholder": "Rechercher dans la boutique",
-      "search": "Recherche",
-      "popular_searches": "Recherches populaires",
-      "popular_products": "Produits populaires"
-    },
-    "accessibility": {
-      "skip_to_content": "Passer au contenu de la page",
-      "unit_price_separator": "par",
-      "close": "Proche",
-      "show_menu": "Afficher le menu",
-      "exit_menu": "Menu Quitter",
-      "view": "Vue",
-      "scroll_to_top": "Faire défiler vers le haut",
-      "scroll_to_product": "Faites défiler jusqu'au produit",
-      "scroll_to_logo": "Faites défiler jusqu'au logo",
-      "footer_logo": "Logo de pied de page",
-      "slide_image": "Image de diapositive"
-    },
-    "cookies": {
-      "title": "Pouvons-nous stocker des cookies?",
-      "cookies_link": "cookies",
-      "text_html": "Broadcast utilise des {{ cookies }} pour améliorer votre expérience de navigation.",
-      "access": "J'accepte"
-    },
-    "social": {
-      "share_on_facebook": "Partager",
-      "share_on_twitter": "Tweeter",
-      "share_on_pinterest": "Épingler",
-      "copied_text": "Copié!",
-      "alt_text": {
-        "share_on_facebook": "Partager sur Facebook",
-        "share_on_twitter": "Tweeter sur Twitter",
-        "share_on_pinterest": "Épingler sur Pinterest"
-      }
-    },
-    "share": {
-      "share": "Partager",
-      "share_url": "Lien",
-      "copy_to_clipboard": "Copier le lien",
-      "success_message": "Lien copié dans le presse-papiers"
-    },
-    "money": {
-      "free": "Gratuit"
-    },
-    "pagination": {
-      "prev": "Précédent",
-      "next": "Suivant"
-    },
-    "shop_the_look": {
-      "button": "Achetez le look"
-    }
-  },
   "blogs": {
     "article": {
       "by_author": "Par {{ author }}",
@@ -259,6 +130,12 @@
       "post_success": "Merci de nous avoir avoir contacté. Nous vous reviendrons le plus rapidement possible."
     }
   },
+  "countdown": {
+    "days": "Jours",
+    "hours": "Heures",
+    "minutes": "Minutes",
+    "seconds": "Secondes"
+  },
   "customer": {
     "account": {
       "account": "Compte",
@@ -374,6 +251,147 @@
     "full_date": "%d %b %Y",
     "full_date_and_time": "%d %b %Y %I:%M%p"
   },
+  "general": {
+    "404": {
+      "title": "404 - Page non trouvée",
+      "subtext_html": "Cette page n'est pas disponible."
+    },
+    "ie11_support_message": "Ce site Web a des limites de navigation. Il est recommandé d'utiliser un navigateur comme Edge, Chrome, Safari ou Firefox.",
+    "swatches": {
+      "color": "Couleur"
+    },
+    "siblings": {
+      "label": "Couleur"
+    },
+    "products_with_count": {
+      "one": "{{ count }} produit",
+      "other": "{{ count }} des produits"
+    },
+    "size_chart": {
+      "title": "Tableau des tailles",
+      "size": "Taille"
+    },
+    "meta": {
+      "tags": "Mots clés \"{{ tags }}\"",
+      "page": "Page {{ page }}"
+    },
+    "breadcrumbs": {
+      "home": "Accueil",
+      "products": "Produits",
+      "go_back": "Retourner"
+    },
+    "forms": {
+      "post_error": "Désolé, il semble y avoir un problème. Tentez de corriger les éléments suivants et soumettez le formulaire à nouveau:"
+    },
+    "newsletter_form": {
+      "newsletter_email": "Email",
+      "name": "Prénom",
+      "submit": "S'inscrire",
+      "placeholder": "Adresse e-mail",
+      "thank_you": "Merci ! Vous recevrez bientôt un email de notre part. Pensez à vérifier vos spams.",
+      "thank_you_with_code_html": "Merci pour votre inscription! Vous pouvez utiliser ce code <span>Remise de 10 %</span> pour votre prochaine commande !",
+      "error_message": "Ce client est déjà inscrit !"
+    },
+    "search": {
+      "articles": "Articles",
+      "no_results": "Aucun résultat trouvé pour « {{ terms }} ». Vérifiez l'orthographe ou utilisez un autre mot ou une autre expression.",
+      "results_with_count": {
+        "one": "{{ count }} résultat",
+        "other": "{{ count }} résultats",
+        "many": "{{ count }} résultats"
+      },
+      "title": "Résultats de la recherche",
+      "page": "Page",
+      "products": "Produits",
+      "search_for": "Rechercher « {{ terms }} »",
+      "reset": "Réinitialiser",
+      "clear": "Éclaircir",
+      "results_with_count_and_term": {
+        "one": "{{ count }} résultat trouvé pour « {{ terms }} »",
+        "other": "{{ count }} résultats trouvés pour « {{ terms }} »",
+        "many": "{{ count }} résultats trouvés pour « {{ terms }} »"
+      },
+      "results_pages_with_count": {
+        "one": "Page {{ count }}",
+        "other": "Pages {{ count }}",
+        "many": "Pages {{ count }}"
+      },
+      "results_suggestions_with_count": {
+        "one": "{{ count }} suggestion",
+        "other": "{{ count }} suggestions",
+        "many": "{{ count }} suggestions"
+      },
+      "results_products_with_count": {
+        "one": "Produit {{ count }}",
+        "other": "Produits {{ count }}",
+        "many": "Produits {{ count }}"
+      },
+      "suggestions": "Suggestions",
+      "pages": "Pages",
+      "placeholder": "Rechercher dans la boutique",
+      "search": "Recherche",
+      "popular_searches": "Recherches populaires",
+      "popular_products": "Produits populaires"
+    },
+    "accessibility": {
+      "skip_to_content": "Passer au contenu de la page",
+      "unit_price_separator": "par",
+      "close": "Proche",
+      "show_menu": "Afficher le menu",
+      "exit_menu": "Menu Quitter",
+      "view": "Vue",
+      "scroll_to_top": "Faire défiler vers le haut",
+      "scroll_to_product": "Faites défiler jusqu'au produit",
+      "scroll_to_logo": "Faites défiler jusqu'au logo",
+      "footer_logo": "Logo de pied de page",
+      "slide_image": "Image de diapositive"
+    },
+    "cookies": {
+      "title": "Pouvons-nous stocker des cookies?",
+      "cookies_link": "cookies",
+      "text_html": "Broadcast utilise des {{ cookies }} pour améliorer votre expérience de navigation.",
+      "access": "J'accepte"
+    },
+    "social": {
+      "share_on_facebook": "Partager",
+      "share_on_twitter": "Tweeter",
+      "share_on_pinterest": "Épingler",
+      "copied_text": "Copié!",
+      "alt_text": {
+        "share_on_facebook": "Partager sur Facebook",
+        "share_on_twitter": "Tweeter sur Twitter",
+        "share_on_pinterest": "Épingler sur Pinterest"
+      }
+    },
+    "share": {
+      "share": "Partager",
+      "share_url": "Lien",
+      "copy_to_clipboard": "Copier le lien",
+      "success_message": "Lien copié dans le presse-papiers"
+    },
+    "money": {
+      "free": "Gratuit"
+    },
+    "pagination": {
+      "prev": "Précédent",
+      "next": "Suivant"
+    },
+    "shop_the_look": {
+      "button": "Achetez le look"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Votre carte-cadeau {{ shop }} d'une valeur de {{ value }}!",
+      "subtext": "Voici votre carte-cadeau!",
+      "disabled": "Désactivée",
+      "expired": "Expirée le {{ expiry }}",
+      "active": "Expire le {{ expiry }}",
+      "redeem": "Entrez ce code lors du paiement pour utiliser votre carte-cadeau",
+      "shop_link": "Boutique",
+      "print": "Imprimer"
+    }
+  },
   "home_page": {
     "sections": {
       "frontpage_title": "Collection Frontpage",
@@ -420,6 +438,24 @@
     "search_page": {
       "singular_article": "Article",
       "singular_page": "Page"
+    }
+  },
+  "password": {
+    "page": {
+      "title": "Ouverture prochaine",
+      "powered_by": "Ce magasin sera alimenté par"
+    },
+    "form": {
+      "success": "Merci de vous être abonné!",
+      "newsletter_title": "Abonnez-vous à nouveau",
+      "placeholder": "email@example.com",
+      "login": "Mot de passe"
+    },
+    "buttons": {
+      "sign_up": "S'inscrire",
+      "store_login": "Vitrine",
+      "newsletter_signup": "Bulletin",
+      "login": "S'identifier"
     }
   },
   "products": {
@@ -487,24 +523,6 @@
       }
     }
   },
-  "countdown": {
-    "days": "Jours",
-    "hours": "Heures",
-    "minutes": "Minutes",
-    "seconds": "Secondes"
-  },
-  "gift_cards": {
-    "issued": {
-      "title": "Votre carte-cadeau {{ shop }} d'une valeur de {{ value }}!",
-      "subtext": "Voici votre carte-cadeau!",
-      "disabled": "Désactivée",
-      "expired": "Expirée le {{ expiry }}",
-      "active": "Expire le {{ expiry }}",
-      "redeem": "Entrez ce code lors du paiement pour utiliser votre carte-cadeau",
-      "shop_link": "Boutique",
-      "print": "Imprimer"
-    }
-  },
   "recipient": {
     "form": {
       "checkbox": "Je veux envoyer ce produit comme cadeau",
@@ -517,24 +535,6 @@
       "max_characters": "{{ max_chars }} caractères au maximum",
       "send_on": "AAAA-MM-JJ",
       "send_on_label": "Envoyer le (facultatif)"
-    }
-  },
-  "password": {
-    "page": {
-      "title": "Ouverture prochaine",
-      "powered_by": "Ce magasin sera alimenté par"
-    },
-    "form": {
-      "success": "Merci de vous être abonné!",
-      "newsletter_title": "Abonnez-vous à nouveau",
-      "placeholder": "email@example.com",
-      "login": "Mot de passe"
-    },
-    "buttons": {
-      "sign_up": "S'inscrire",
-      "store_login": "Vitrine",
-      "newsletter_signup": "Bulletin",
-      "login": "S'identifier"
     }
   },
   "shopify": {
@@ -557,6 +557,41 @@
       "subscribed": {
         "confirmation": "Merci pour votre abonnement à notre newsletter ! En guise de remerciement, vous venez de recevoir un email contenant un code promo de -10% à utiliser sur votre première commande."
       }
+    }
+  },
+  "gempages": {
+    "Carousel": {
+      "no_slider": "No Slider"
+    },
+    "Newsletter": {
+      "err_msg_default": "Can’t send email. Please try again later.",
+      "success_msg_default": "Thanks for contacting us. We'll get back to you as soon as possible."
+    },
+    "IconListV2": {
+      "icons_not_found": "Icons not found"
+    },
+    "IconList": {
+      "icons_not_found": "Icons not found"
+    },
+    "IconListHoz": {
+      "icons_not_found": "Icons not found"
+    },
+    "Product": {
+      "product_not_found": "Product not found"
+    },
+    "ProductList": {
+      "product_not_found": "Product Not Found!",
+      "no_products_found": "No products found!",
+      "no_related_products": "No related products!"
+    },
+    "ProductTitle": {
+      "product_not_found": "Product Not Found"
+    },
+    "ProductVariants": {
+      "please_select": "Please select an option"
+    },
+    "StockCounter": {
+      "let_buy_now": "<mark>HURRY!</mark> LET BUY NOW"
     }
   }
 }
